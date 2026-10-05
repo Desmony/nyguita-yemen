@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="nyguita-yemen" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_NYGUITA_YEMEN_NAME</Name>
+		<Description>LOC_MODULE_NYGUITA_YEMEN_DESCRIPTION</Description>
+		<Authors>Nyguita</Authors>
+		<SpecialThanks>Archanist</SpecialThanks>
+		<Package>Mod</Package>
+        <Version>1.0.0</Version>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+		<Mod id="custom-civ-art-fixes" title=""/>
+	</Dependencies>
+	<References>
+		<Mod id="age-antiquity" title="LOC_MODULE_AGE_ANTIQUITY_NAME" />
+		<Mod id="ottomans" title="LOC_MODULE_OTTOMAN_NAME" />
+		<Mod id="friedrich-xerxes-alt" title="LOC_MODULE_FRIEDRICH_XERXES_ALT_NAME" />
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="ottomans-current">
+			<ModInUse>ottomans</ModInUse>
+		</Criteria>
+		<Criteria id="ottomans-current-shell">
+			<ModIsEnabled>ottomans</ModIsEnabled>
+		</Criteria>
+		<Criteria id="xerxes-current-shell">
+			<ModIsEnabled>friedrich-xerxes-alt</ModIsEnabled>
+		</Criteria>
+		<Criteria id="ccaf-enable" all="true">
+            <ModInUse>custom-civ-art-fixes</ModInUse>
+        </Criteria>
+		<Criteria id="ccaf-enable-shell" all="true">
+            <ModIsEnabled>custom-civ-art-fixes</ModIsEnabled>
+        </Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="nyguita-yemen-art" scope="game" criteria="always">
+			<Actions>
+				<UpdateArt>
+					<Item>nyguita-yemen</Item>
+				</UpdateArt>
+				<UpdateIcons>
+					<Item>data/icons/images.sql</Item>
+				</UpdateIcons>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="nyguita-yemen-text" scope="game" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/tot-NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-nyguita-yemen" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/constructibles-shared.xml</Item>
+					<!--Item>data/named-places.xml</Item-->
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>					
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/narrative-stories-common-gameeffects.xml</Item>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/loading-info-exploration.xml</Item>
+				</UpdateDatabase>
+				<ImportFiles>
+					<Item>assets/bg-card-nyguita_yemen</Item>
+					<Item>assets/bg-card-nyguita_yemen.png</Item>
+					<Item>assets/bg-panel-nyguita_yemen</Item>
+					<Item>assets/bg-panel-nyguita_yemen.png</Item>
+					<Item>assets/civ_sym_nyguita_yemen</Item>
+					<Item>assets/cult_nyguita_yemen.png</Item>
+					<Item>assets/dip_cs_nyguita_yemen</Item>
+					<Item>assets/dip_cs_nyguita_yemen.png</Item>
+					<Item>assets/improvment_date_palm_plantation.png</Item>
+					<Item>assets/karimi_unit_icon.png</Item>
+					<Item>assets/nyguita_yemen_background_720.png</Item>
+					<Item>assets/nyguita_yemen_background_1080.png</Item>
+					<Item>assets/wonder_al_qahira_castle.png</Item>
+					<Item>assets/yemen_civ_icon</Item>
+					<Item>assets/yemen_civ_icon.png</Item>
+					<Item>assets/zarug_unit_icon.png</Item>
+				</ImportFiles>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-nyguita-yemen" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-unique-aq.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-antiquity-narrative-stories.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-persist-nyguita-yemen" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-main-nyguita-yemen" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/progression-trees-techs.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-nyguita-yemen" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/tot-modern-narrative-stories-gameeffects.xml</Item>
+					<Item>data/tot-modern-narrative-stories.xml</Item>
+					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-unlocks-nyguita-yemen-ottomans" scope="game" criteria="ottomans-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-ottomans.xml</Item>
+					<Item>data/unlocks-syncretism-ottomans.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-nyguita-yemen-xerxes-alt-lakshmibai" scope="shell" criteria="xerxes-current-shell">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-xerxes-alt.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-nyguita-yemen" scope="shell" criteria="always">
+			<Actions>
+				<UpdateIcons>
+					<Item>data/icons/images.sql</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/config-traditions.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+				</UpdateDatabase>
+				<ImportFiles>
+					<Item>assets/bg-card-nyguita_yemen</Item>
+					<Item>assets/bg-card-nyguita_yemen.png</Item>
+					<Item>assets/bg-panel-nyguita_yemen</Item>
+					<Item>assets/bg-panel-nyguita_yemen.png</Item>
+					<Item>assets/civ_sym_nyguita_yemen</Item>
+					<Item>assets/cult_nyguita_yemen.png</Item>
+					<Item>assets/dip_cs_nyguita_yemen</Item>
+					<Item>assets/dip_cs_nyguita_yemen.png</Item>
+					<Item>assets/improvment_date_palm_plantation.png</Item>
+					<Item>assets/karimi_unit_icon.png</Item>
+					<Item>assets/nyguita_yemen_background_720.png</Item>
+					<Item>assets/nyguita_yemen_background_1080.png</Item>
+					<Item>assets/wonder_al_qahira_castle.png</Item>
+					<Item>assets/yemen_civ_icon</Item>
+					<Item>assets/yemen_civ_icon.png</Item>
+					<Item>assets/zarug_unit_icon.png</Item>
+				</ImportFiles>
+				<UpdateText>
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="ccaf-yemen-game" scope="game" criteria="ccaf-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>civ-icon-fixes/fixes.sql</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="ccaf-yemen-shell" scope="shell" criteria="ccaf-enable-shell">
+			<Actions>
+                <UpdateDatabase>
+					<Item>civ-icon-fixes/fixes.sql</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

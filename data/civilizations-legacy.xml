@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="TRAIT_NYGUITA_YEMEN" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" FullName="LOC_CIVILIZATION_NYGUITA_YEMEN_FULLNAME" Adjective="LOC_CIVILIZATION_NYGUITA_YEMEN_ADJECTIVE" Age="AGE_EXPLORATION"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_NYGUITA_YEMEN"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_NYGUITA_YEMEN" InternalOnly="true"/>
+	</Traits>
+</Database>

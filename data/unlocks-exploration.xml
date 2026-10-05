@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_MUGHAL" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MUGHAL"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MUGHAL" Name="LOC_CIVILIZATION_MUGHAL_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_MUGHAL" UnlockRewardType="CIVILIZATION_MUGHAL" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MUGHAL" ConfigurationValue="CIVILIZATION_MUGHAL"/>
+	</UnlockConfigurationValues>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_MUGHAL" RequirementSetId="REQSET_CIV_IS_NYGUITA_YEMEN" Description="LOC_UNLOCK_PLAY_AS_NYGUITA_YEMEN_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_NYGUITA_YEMEN_MUGHAL_TOOLTIP"/>
+	</UnlockRequirements>
+</Database>

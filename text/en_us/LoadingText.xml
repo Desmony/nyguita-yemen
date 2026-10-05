@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+	<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_NYGUITA_YEMEN"><Text>At the crossroads of the Mediterranean, African and Indian worlds lies Yemen. The boats all around the worlds come to your ports, tradings frankincense, myrrh and spices. The gold may corrupt in other empires but here, it finances the greatest minds, it builds mosques, houses and citadels, roads and water channels.</Text></Row>
+	<Row Tag="LOC_LOADING_INTRO_NYGUITA_YEMEN"><Text>The brillance of our sultans can only be matched with the shining of gold.</Text></Row>
+	<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_NYGUITA_YEMEN"><Text>Yemen is a trading civ. Try to gather resources slots as possible. While your merchants provide the culture, your religion will provide the science.</Text></Row>
+	</EnglishText>
+</Database>

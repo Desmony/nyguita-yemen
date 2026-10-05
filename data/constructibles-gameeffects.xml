@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_NYGUITA_DATE_PALM_PLANTATION" collection="COLLECTION_SINGLE_PLOT_YIELDS" effect="EFFECT_PLOT_PLACE_RESOURCE" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X" inverse="true">
+            	<Argument name="Percent">99</Argument>
+            	<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
+        	</Requirement>
+		</OwnerRequirements>
+		<Argument name="ResourceType">RESOURCE_DATES</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_DATE_PALM_PLANTATION_REPLACE_UI" collection="COLLECTION_OWNER_PLAYER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X" inverse="true">
+            	<Argument name="Percent">99</Argument>
+            	<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
+        	</Requirement>
+		</OwnerRequirements>
+		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_AL_QAHIRA_CASTLE_WONDER" collection="COLLECTION_OWNER_CITY" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" permanent="true" run-once="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_NYGUITA_AL_QAHIRA_CASTLE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Tag">FORTIFICATION</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_NAME</Argument>
+		<Argument name="Description">LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_DESCRIPTION</Argument>
+	</Modifier>
+</GameEffects>

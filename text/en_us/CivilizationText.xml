@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME"><Text>Aswāq al-‘Arab</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_NYGUITA_YEMEN_DESCRIPTION"><Text>[icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] provide [B]+2 [icon:YIELD_SCIENCE] Science[/B] when slotted in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] following your own [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP] and [B]+2 [icon:YIELD_GOLD] Gold[/B] in Settlements adjacent to Coast.</Text></Row>
+		<Row Tag="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_DESCRIPTION"><Text>[BLIST][LI][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] provide [B]+2 [icon:YIELD_SCIENCE] Science[/B] when slotted in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] following your own [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP] and [B]+2 [icon:YIELD_GOLD] Gold[/B] in Settlements adjacent to Coast.[LI][B]+30% [icon:YIELD_PRODUCTION] Production[/B] towards Al-Qahira Castle.[/BLIST]</Text></Row>
+		<Row Tag="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_AQ_DESCRIPTION"><Text>[BLIST][LI][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] provide [B]+1 [icon:YIELD_SCIENCE] Science[/B] when slotted in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] with an Altar and [B]+1 [icon:YIELD_GOLD] Gold[/B] in Settlements adjacent to Coast.[/BLIST]</Text></Row>
+		<Row Tag="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_MO_DESCRIPTION"><Text>[BLIST][LI][icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP] provide [B]+3 [icon:YIELD_SCIENCE] Science[/B] when slotted in [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] following your own [icon:NAR_REW_RELIGION] [TIP:LOC_PEDIA_CONCEPTS_RELIGION_TOOLTIP]Religion[/TIP] and [B]+3 [icon:YIELD_GOLD] Gold[/B] in Settlements adjacent to Coast.[/BLIST]</Text></Row>
+	</EnglishText>
+</Database>

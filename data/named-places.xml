@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<NamedMountains>
+		<Row NamedMountainType="MOUNTAIN_NYGUITA_HADHRAMAUT" Name="LOC_MOUNTAIN_NYGUITA_HADHRAMAUT_NAME"/>
+		<Row NamedMountainType="MOUNTAIN_NYGUITA_DHOFAR" Name="LOC_MOUNTAIN_NYGUITA_DHOFAR_NAME"/>
+		<Row NamedMountainType="MOUNTAIN_NYGUITA_HAJHIR" Name="LOC_MOUNTAIN_NYGUITA_HAJHIR_NAME"/>
+	</NamedMountains>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="MOUNTAIN_NYGUITA_HADHRAMAUT" CivilizationType="CIVILIZATION_NYGUITA_YEMEN"/>
+		<Row NamedMountainType="MOUNTAIN_NYGUITA_DHOFAR" CivilizationType="CIVILIZATION_NYGUITA_YEMEN"/>
+		<Row NamedMountainType="MOUNTAIN_NYGUITA_HAJHIR" CivilizationType="CIVILIZATION_NYGUITA_YEMEN"/>
+	</NamedMountainCivilizations>
+</Database>

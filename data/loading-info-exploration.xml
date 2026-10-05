@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LoadingInfo_Civilizations>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_NYGUITA_YEMEN" Subtitle="LOC_LOADING_INTRO_NYGUITA_YEMEN" Tip="LOC_LOADING_CIV_TIPS_TEXT_NYGUITA_YEMEN" BackgroundImageHigh="fs://game/nyguita_yemen_background_1080.png" BackgroundImageLow="fs://game/nyguita_yemen_background_720.png" ForegroundImage="fs://game/civ_sym_nyguita_yemen"/>
+	</LoadingInfo_Civilizations>
+</Database>

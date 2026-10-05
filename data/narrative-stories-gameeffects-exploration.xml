@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  narrative-stories-gameeffects-antiquity.xml (or -exploration / -modern).
+  Pair with narrative-stories-antiquity.xml in the same age .modinfo module.
+-->
+<GameEffects xmlns="GameEffects">
+    <Modifier id="NYGUITA_YEMEN_RIZAL_B_REWARD_MODIFIER" collection="COLLECTION_OWNER"
+              effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="MultiplierType">REWARD_TYPE_MINOR_EARLY</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_RIZAL_C_REWARD_MODIFIER" collection="COLLECTION_OWNER"
+              effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="MultiplierType">REWARD_TYPE_MINOR_EARLY</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_DATES_UI_B_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" run-once="false" permanent="true">
+		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
+		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_01_B_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_ECONOMIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_01_C_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_SCIENTIFIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_RIZAL_A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_JOSE_RIZAL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_REQUISITEE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_01_A_REQUISITEE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_RIZAL_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_JOSE_RIZAL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_PLAYERS_MEET01</Argument>
+            <Argument name="GOSSIP_PLAYERS_MEET01">Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_NYGUITA_YEMEN</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
+            <Argument name="Percent">99</Argument>
+            <Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
+            <Argument name="Amount">1</Argument>
+            <Argument name="BuildingType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_01_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM</Argument>
+        </Requirement>
+    </RequirementSet>
+
+</GameEffects>

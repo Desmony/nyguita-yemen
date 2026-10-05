@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+	<Row Tag="LOC_MOUNTAIN_NYGUITA_HADHRAMAUT_NAME"><Text>Hadhramaut</Text></Row>
+	<Row Tag="LOC_MOUNTAIN_NYGUITA_DHOFAR_NAME"><Text>Dhofar</Text></Row>
+	<Row Tag="LOC_MOUNTAIN_NYGUITA_HAJHIR_NAME"><Text>Hajhir</Text></Row>
+	</EnglishText>
+</Database>

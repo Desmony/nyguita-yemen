@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+	<Row Tag="LOC_TREE_CIVICS_EX_NYGUITA_YEMEN_NAME"><Text>Yemen Civics</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_NAME"><Text>Felicitous Arabia</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_QUOTE"><Text>Dhat al-Asad is a river from the rivers of the Hijaz, and it flows ina smooth rock that the hoof can cross but the shoe cannot, and it slips in it. So Thamud cut through the rock in it for camels' paths to their pastures, and they carved houses in its mountains as shelter from the heat of the Sun in the Hijaz.</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_AUTHOR"><Text>The Book of Crowns on the Kings of Himyar, Ibn Hisham and Wahb ibn Munabbih</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_NAME"><Text>Nūr al-ma‘ārif</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_QUOTE"><Text>The Sultan of Aden possesses immense treasures, arising from the imposts he lays, as well upon the merchandise that comes from India.</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_AUTHOR"><Text>Marco Polo</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_NAME"><Text>Zaydism</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_QUOTE"><Text>The people of Yemen have come to you, and they are more soft hearted and gentle hearted people. The capacity for understanding religion is Yemenite and Wisdom is Yemenite.</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_AUTHOR"><Text>The Prophet Muhammad</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_RENAISSANCE_NAME"><Text>Yemeni Renaissance</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_AQ_NYGUITA_YEMEN_ORIGINS_NAME"><Text>Yemeni Origins</Text></Row>
+	<Row Tag="LOC_NODE_CIVIC_MO_NYGUITA_YEMEN_MODERNIZATION_NAME"><Text>Yemeni Modernization</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_QAW_ID_AL_SAB_N_NAME"><Text>Qawā‘id al-sab‘īn II</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_QAW_ID_AL_SAB_N_DESCRIPTION"><Text>[B]+2 [icon:YIELD_GOLD] and [icon:YIELD_HAPPINESS][/B] on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_QAW_ID_AL_SAB_N_AQ_NAME"><Text>Qawā‘id al-sab‘īn I</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_QAW_ID_AL_SAB_N_AQ_DESCRIPTION"><Text>[B]+1 [icon:YIELD_GOLD] and [icon:YIELD_HAPPINESS][/B] on [icon:YIELD_GOLD] Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_SHAW_N_NAME"><Text>Shawānī</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_SHAW_N_DESCRIPTION"><Text>[B]+5 [icon:YIELD_GOLD][/B] from Naval [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Routes[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_NAME"><Text>Scholar-Sultans I</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_DESCRIPTION"><Text>All [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] Halls and the [TIP:LOC_PEDIA_CONCEPTS_PALACE_TOOLTIP]Palace[/TIP] receive a [B]+1 [icon:YIELD_SCIENCE][/B] Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_MO_NAME"><Text>Scholar-Sultans II</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_MO_DESCRIPTION"><Text>All [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]City[/TIP] Halls and the [TIP:LOC_PEDIA_CONCEPTS_PALACE_TOOLTIP]Palace[/TIP] receive a [B]+2 [icon:YIELD_SCIENCE][/B] Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_ANTIQUITY_NAME"><Text>Compete, Never envy I</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_ANTIQUITY_DESCRIPTION"><Text>[B]+2 [icon:YIELD_GOLD][/B] for every imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_MODERN_NAME"><Text>Compete, Never envy II</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_MODERN_DESCRIPTION"><Text>[B]+4 [icon:YIELD_GOLD][/B] for every imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP].</Text></Row>
+	<Row Tag="LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_TOOLTIP"><Text>+1 Gold per unique imported resource</Text></Row>
+	</EnglishText>
+</Database>

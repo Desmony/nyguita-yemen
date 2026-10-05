@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_NYGUITA_YEMEN" UnlockRewardType="CIVILIZATION_NYGUITA_YEMEN" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" ConfigurationValue="CIVILIZATION_NYGUITA_YEMEN"/>
+	</UnlockConfigurationValues>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_CIV_IS_AKSUM" Description="LOC_UNLOCK_PLAY_AS_AKSUM_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_AKSUM_NYGUITA_YEMEN_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_CIV_IS_EGYPT" Description="LOC_UNLOCK_PLAY_AS_EGYPT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_EGYPT_NYGUITA_YEMEN_TOOLTIP"/>
+	</UnlockRequirements>
+</Database>

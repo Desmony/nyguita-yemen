@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_CASTLES" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_NYGUITA_ZARUG_2" UnlockDepth="1" RequiredTraitType="TRAIT_NYGUITA_YEMEN"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_GUNPOWDER" TargetKind="KIND_UNIT" TargetType="UNIT_NYGUITA_ZARUG_3" UnlockDepth="1" RequiredTraitType="TRAIT_NYGUITA_YEMEN"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>

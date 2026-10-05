@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Update><Where CivilizationType="CIVILIZATION_NYGUITA_YEMEN"/><Set UniqueCultureProgressionTree="TREE_CIVICS_MO_TEST_OF_TIME"/></Update>
+	</Civilizations>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ANACHRONISTIC_CIV"/>
+	</CivilizationTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_NYGUITA_YEMEN_ABILITY" ModifierId="MOD_NYGUITA_YEMEN_MO_SCIENCE_FOR_RESOURCES_YIELD"/>
+		<Row TraitType="TRAIT_NYGUITA_YEMEN_ABILITY" ModifierId="MOD_NYGUITA_YEMEN_MO_GOLD_FOR_RESOURCES_YIELD"/>
+		<Row TraitType="TRAIT_MODERN_CIV" ModifierId="MOD_NYGUITA_YEMEN_REPLACE_UI_MO"/>
+	</TraitModifiers>
+</Database>

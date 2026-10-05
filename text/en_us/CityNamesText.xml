@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN1"><Text>Zabid</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN2"><Text>Sa'ada</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN3"><Text>Sana'a</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN4"><Text>Jiblah</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN5"><Text>Taiz</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN6"><Text>Aden</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN7"><Text>Shihr</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN8"><Text>Mirbat</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN9"><Text>Zinjibar</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN10"><Text>Lahij</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN11"><Text>Najran</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN12"><Text>Bayhan</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN13"><Text>Dhamar</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN14"><Text>Ibb</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN15"><Text>Rada'a</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN16"><Text>Marib</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN17"><Text>Qana</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN18"><Text>Mukalla</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN19"><Text>Seiyun</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN20"><Text>Salalah</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN21"><Text>Harad</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN22"><Text>Mukha</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN23"><Text>Hodeidah</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN24"><Text>Shibam</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN25"><Text>Al-Jannat</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN26"><Text>Amran</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN27"><Text>Bayt al-Faqih</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN28"><Text>Luhayyah</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN29"><Text>Hajjah</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN30"><Text>Khamir</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN31"><Text>Mahwit</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN32"><Text>Hadibu</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN33"><Text>Tarim</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN34"><Text>Thula</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN35"><Text>Yarim</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NYGUITA_YEMEN36"><Text>Janad</Text></Row>
+	</EnglishText>
+</Database>

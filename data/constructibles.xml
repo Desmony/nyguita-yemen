@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<TypeQuotes>
+		<Row Type="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Quote="LOC_QUOTE_WONDER_NYGUITA_AL_QAHIRA_CASTLE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_NYGUITA_AL_QAHIRA_CASTLE"/>
+	</TypeQuotes>
+	<Constructibles>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Name="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_NAME" Description="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_TOOLTIP" ConstructibleClass="IMPROVEMENT" Age="AGE_EXPLORATION" Cost="90" Population="1" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES_CITY" CostProgressionParam1="45"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" Name="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE_NAME" Description="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_TOOLTIP" ConstructibleClass="IMPROVEMENT" Age="AGE_EXPLORATION" Cost="90" Population="1" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES_CITY" CostProgressionParam1="45"/>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Name="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_NAME" Description="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_DESCRIPTION" Tooltip="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_TOOLTIP" ConstructibleClass="WONDER" Cost="750" Population="0" RequiresUnlock="true" ImmuneDamage="true" Age="AGE_EXPLORATION"/>
+	</Constructibles>
+	<Improvements>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" CityBuildable="true" TraitType="TRAIT_NYGUITA_YEMEN"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" TraitType="TRAIT_NYGUITA_YEMEN"/>
+	</Improvements>
+	<Buildings>
+	</Buildings>
+	<Wonders>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" MaxWorldInstances="1"/>
+	</Wonders>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" TerrainType="TERRAIN_MOUNTAIN"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" TerrainType="TERRAIN_FLAT"/>
+	</Constructible_ValidTerrains>
+	<Constructible_ValidBiomes>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" BiomeType="BIOME_DESERT"/>
+	</Constructible_ValidBiomes>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" DistrictType="DISTRICT_RURAL"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" DistrictType="DISTRICT_RURAL"/>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" DistrictType="DISTRICT_WONDER"/>
+	</Constructible_ValidDistricts>
+	<Adjacency_YieldChanges>
+		<Row ID="DatePalmPlantationUrbanHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+	</Adjacency_YieldChanges>
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" YieldChangeId="DatePalmPlantationUrbanHappiness"/>
+	</Constructible_Adjacencies>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" YieldType="YIELD_DIPLOMACY" YieldChange="3"/>
+	</Constructible_YieldChanges>
+	<Constructible_Plunders>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" PlunderType="PLUNDER_HEAL" Amount="30"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" PlunderType="PLUNDER_HEAL" Amount="30"/>
+	</Constructible_Plunders>
+	<TypeTags>
+		<Row Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Tag="AGELESS"/>
+		<Row Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" Tag="AGELESS"/>
+		<Row Type="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Tag="FORTIFICATION"/>
+		<Row Type="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Tag="AGELESS"/>
+	</TypeTags>
+	<ConstructibleModifiers>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" ModifierId="MOD_NYGUITA_DATE_PALM_PLANTATION"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" ModifierId="MOD_NYGUITA_DATE_PALM_PLANTATION_REPLACE_UI"/>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" ModifierId="MOD_NYGUITA_AL_QAHIRA_CASTLE_WONDER"/>
+	</ConstructibleModifiers>
+	<Constructible_Advisories>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" AdvisoryClassType="ADVISORY_CLASS_DEFENSE"/>
+		<Row ConstructibleType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+	</Constructible_Advisories>
+	<Constructible_ValidResources>
+		<Row ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" ResourceType="RESOURCE_DATES"/>
+	</Constructible_ValidResources>
+	<District_FreeConstructibles>
+		<Update><Where ResourceType="RESOURCE_DATES"/><Set Priority="2"/></Update>
+		<Row DistrictType="DISTRICT_RURAL" ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" ResourceType="RESOURCE_DATES" Priority="1"/>
+		<!--Row DistrictType="DISTRICT_RURAL" ConstructibleType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" TerrainType="TERRAIN_FLAT" BiomeType="BIOME_DESERT" Priority="3" /-->
+	</District_FreeConstructibles>
+</Database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_NYGUITA_YEMEN_NAME"><Text>Nyguita's Yemen</Text></Row>
+		<Row Tag="LOC_MODULE_NYGUITA_YEMEN_DESCRIPTION"><Text>Adds [B]Yemen[/B] as an Exploration Age Apex civilization.</Text></Row>
+		<Row Tag="LOC_AUTHORS_COMMUNITY"><Text>Nyguita</Text></Row>
+		<Row Tag="LOC_SPECIAL_THANKS_COMMUNITY"><Text>Archanist</Text></Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<IconDefinitions>
+	<Row>
+		<ID>CIVILIZATION_NYGUITA_YEMEN</ID>
+		<Path>fs://game/nyguita-argentina/civ_sym_nyguita_yemen</Path>
+	</Row>
+	<Row>
+		<ID>CIVILIZATION_NYGUITA_YEMEN</ID>
+		<Context>BACKGROUND</Context>
+		<Path>fs://game/nyguita-argentina/lsbg_nyguita_yemen_1080</Path>
+		<IconSize>1080</IconSize>
+	</Row>
+	<Row>
+		<ID>CIVILIZATION_NYGUITA_YEMEN</ID>
+		<Context>BACKGROUND</Context>
+		<Path>fs://game/nyguita-argentina/lsbg_nyguita_yemen_720</Path>
+		<IconSize>720</IconSize>
+	</Row>
+	<Row>
+		<ID>UNIT_NYGUITA_ZARUG</ID>
+		<Path>fs://game/nyguita-argentina/unitflag_nyguita_yemen_zarug</Path>
+	</Row>
+	<Row>
+		<ID>UNIT_NYGUITA_KARIMI</ID>
+		<Path>fs://game/nyguita-argentina/unitflag_nyguita_yemen_karimi</Path>
+	</Row>
+	<Row>
+		<ID>IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</ID>
+		<Path>fs://game/nyguita-argentina/impicon_nyguita_yemen_date_palm_plantation</Path>
+	</Row>
+	<Row>
+		<ID>WONDER_NYGUITA_AL_QAHIRA_CASTLE</ID>
+		<Path>fs://game/nyguita-argentina/wondericon_nyguita_yemen_al_qahira_castle</Path>
+	</Row>
+	</IconDefinitions>
+</Database>

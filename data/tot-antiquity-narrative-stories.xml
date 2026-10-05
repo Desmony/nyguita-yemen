@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Types>
+        <Row Type="TOT_ANTIQUITY_NYGUITA_YEMEN_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="TOT_ANTIQUITY_NYGUITA_YEMEN_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="TOT_ANTIQUITY_NYGUITA_YEMEN_C" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_A" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_DESCRIPTION" Completion="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_COMPLETION" StoryTitle="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="REQUISITE" RequirementSetId="REQSET_TOT_ANTIQUITY_NYGUITA_YEMEN_A_NARRATIVE" ActivationRequirementSetId="REQSET_TOT_ANTIQUITY_NYGUITA_YEMEN_A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_B" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_DESCRIPTION" Completion="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_C" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_DESCRIPTION" Completion="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+    </NarrativeStories>
+    <NarrativeRewards>
+        <Row NarrativeRewardType="TOT_ANTIQUITY_NYGUITA_YEMEN_B_REWARD" ModifierID="TOT_ANTIQUITY_NYGUITA_YEMEN_B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="TOT_ANTIQUITY_NYGUITA_YEMEN_C_REWARD" ModifierID="TOT_ANTIQUITY_NYGUITA_YEMEN_C_NARRATIVE_MODIFIER"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_B" NarrativeRewardType="TOT_ANTIQUITY_NYGUITA_YEMEN_B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_C" NarrativeRewardType="TOT_ANTIQUITY_NYGUITA_YEMEN_C_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeStoryOverrides>
+    </NarrativeStoryOverrides>
+    <NarrativeVariations>
+    </NarrativeVariations>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_B" RewardIconType="ATTRIBUTE_ECONOMIC"/>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_C" RewardIconType="ATTRIBUTE_SCIENTIFIC"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_TextReplacements>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+    </NarrativeStory_TextReplacements>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_A" ToNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_B" Priority="0" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_A" ToNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_C" Priority="1" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</GameData>

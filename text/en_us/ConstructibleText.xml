@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+	<Row Tag="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_NAME"><Text>Date Palm Plantation</Text></Row>
+	<Row Tag="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE_NAME"><Text>Date Palm Plantation (Resource)</Text></Row>
+	<Row Tag="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_DESCRIPTION"><Text>Yemeni [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +4 [icon:YIELD_FOOD] Food. +2 [icon:YIELD_GOLD] Gold. +1[icon:YIELD_HAPPINESS] Happiness Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Provides a copy of [icon:RESOURCE_DATES] Dates. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be built on Flat desert.</Text></Row>
+	<Row Tag="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_TOOLTIP"><Text>+1 [icon:YIELD_HAPPINESS] Happiness Adjacency for [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. Provides a copy of Dates. [N]Yemeni [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP].</Text></Row>
+	<Row Tag="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_NAME"><Text>Al-Qahira Castle</Text></Row>
+	<Row Tag="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_DESCRIPTION"><Text>+3 [icon:YIELD_DIPLOMACY] Influence. +2 [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be built on a mountain.</Text></Row>
+	<Row Tag="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_TOOLTIP"><Text>+2 [icon:YIELD_PRODUCTION] Production on [icon:Action_Fortify] Fortifications in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be built on a mountain.</Text></Row>
+	<Row Tag="LOC_QUOTE_WONDER_NYGUITA_AL_QAHIRA_CASTLE"><Text>Whoever gives up telling lies in support of a false claim, a palace will be built for him in the outskirts of Paradise. Whoever gives up argument when he is in the right, a palace will be built from him in the middle of Paradise. And whoever had good behavior, a palace will be built for him in the highest reaches of Paradise.</Text></Row>
+	<Row Tag="LOC_QUOTE_AUTHOR_WONDER_NYGUITA_AL_QAHIRA_CASTLE"><Text>The Prophet Muhammad</Text></Row>
+	</EnglishText>
+</Database>

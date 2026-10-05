@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="TRAIT_NYGUITA_YEMEN_ABILITY" Kind="KIND_TRAIT" />
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" FullName="LOC_CIVILIZATION_NYGUITA_YEMEN_FULLNAME" Description="LOC_CIVILIZATION_NYGUITA_YEMEN_DESCRIPTION" Adjective="LOC_CIVILIZATION_NYGUITA_YEMEN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" ApexAge="AGE_EXPLORATION" UniqueCultureProgressionTree="TREE_CIVICS_EX_NYGUITA_YEMEN" CapitalName="LOC_CITY_NAME_NYGUITA_YEMEN1" RandomCityNameDepth="10" />
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" FavoredWonderType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" FavoredWonderName="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_NAME" />
+	</CivilizationFavoredWonders>
+	<Traits>
+		<Row TraitType="TRAIT_NYGUITA_YEMEN_ABILITY" Name="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME" Description="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_DESCRIPTION" InternalOnly="true" />
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_EXPLORATION_CIV" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_NYGUITA_YEMEN" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_NYGUITA_YEMEN_ABILITY" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ATTRIBUTE_ECONOMIC" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_AQ" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_MO" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ATTRIBUTE_SCIENTIFIC" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ATTRIBUTE_SCIENTIFIC_TOT_AQ" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TraitType="TRAIT_ATTRIBUTE_SCIENTIFIC_TOT_MO" />
+	</CivilizationTraits>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_IBN_BATTUTA" Civilization="CIVILIZATION_NYGUITA_YEMEN" Priority="3" />
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_NYGUITA_YEMEN" Priority="1" />
+		<Row Leader="LEADER_AMINA" Civilization="CIVILIZATION_NYGUITA_YEMEN" Priority="1" />
+		<Row Leader="LEADER_XERXES_ALT" Civilization="CIVILIZATION_NYGUITA_YEMEN" Priority="2" />
+	</LeaderCivPriorities>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN1" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN2" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN3" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN4" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN5" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN6" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN7" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN8" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN9" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN10" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN11" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN12" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN13" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN14" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN15" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN16" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN17" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN18" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN19" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN20" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN21" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN22" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN23" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN24" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN25" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN26" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN27" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN28" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN29" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN30" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN31" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN32" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN33" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN34" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN35" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CityName="LOC_CITY_NAME_NYGUITA_YEMEN36" />
+	</CityNames>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BiomeType="BIOME_DESERT" Score="10"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TerrainType="TERRAIN_MOUNTAIN" Score="20"/>
+	</StartBiasTerrains>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" ResourceType="RESOURCE_DATES" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" ResourceType="RESOURCE_INCENSE" Score="5"/>
+	</StartBiasResources>
+	<StartBiasAdjacentToCoasts>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Score="150"/>
+	</StartBiasAdjacentToCoasts>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_MID" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_MID_ANT" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_MID_EXT" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_MID_MOD" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_ANT_MUD" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_EXT_MUD" />
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" BuildingCulture="BUILDING_CULTURE_MOD_MUD" />
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_NYGUITA_YEMEN" UnitCulture="MidE" />
+	</VisArt_CivilizationUnitCultures>
+	<AiListTypes>
+		<Row ListType="Nyguita's Yemen Unit Biases" />
+		<Row ListType="Nyguita's Yemen Government Bias" />
+		<Row ListType="Nyguita's Yemen PseudoYield Biases" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" />
+		<Row ListType="Nyguita's Yemen Settlement Plot Conditions" />
+		<Row ListType="Nyguita's Yemen Tag Biases" />
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="Nyguita's Yemen Unit Biases" LeaderType="TRAIT_NYGUITA_YEMEN" System="UnitBiases" />
+		<Row ListType="Nyguita's Yemen Government Bias" LeaderType="TRAIT_NYGUITA_YEMEN" System="GovernmentBiases" />
+		<Row ListType="Nyguita's Yemen PseudoYield Biases" LeaderType="TRAIT_NYGUITA_YEMEN" System="PseudoYieldBiases" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" LeaderType="TRAIT_NYGUITA_YEMEN" System="ConstructibleBiases" />
+		<Row ListType="Nyguita's Yemen Settlement Plot Conditions" LeaderType="TRAIT_NYGUITA_YEMEN" System="SettlementPlotEvaluations" />
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="Nyguita's Yemen Unit Biases" Item="UNIT_NYGUITA_ZARUG" Value="50" />
+		<Row ListType="Nyguita's Yemen Unit Biases" Item="UNIT_NYGUITA_ZARUG_2" Value="50" />
+		<Row ListType="Nyguita's Yemen Unit Biases" Item="UNIT_NYGUITA_ZARUG_3" Value="50" />
+		<Row ListType="Nyguita's Yemen Unit Biases" Item="UNIT_NYGUITA_KARIMI" Value="75" />
+		<Row ListType="Nyguita's Yemen Government Bias" Item="GOVERNMENT_PLUTOCRACY" Value="25" />
+		<Row ListType="Nyguita's Yemen PseudoYield Biases" Item="PSEUDOYIELD_RESOURCE_IMPORT" Value="200" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Value="50" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Value="200" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" Value="250" />
+		<Row ListType="Nyguita's Yemen Settlement Plot Conditions" Item="Coastal" Favored="false" Value="15" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_COAST"/>
+    	<Row ListType="Nyguita's Yemen Settlement Plot Conditions" Item="Coastal" Favored="false" Value="15" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_COAST"/>
+    	<Row ListType="Nyguita's Yemen Settlement Plot Conditions" Item="Specific Terrain" Value="2" StringVal="TERRAIN_COAST" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TERRAIN"/>
+	</AiFavoredItems>
+</Database>

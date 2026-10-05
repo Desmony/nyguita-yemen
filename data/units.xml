@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="UNIT_NYGUITA_ZARUG" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_NYGUITA_KARIMI" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_NYGUITA_ZARUG" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_NYGUITA_KARIMI" Kind="KIND_ABILITY"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_NYGUITA_ZARUG" Name="LOC_UNIT_NYGUITA_ZARUG_NAME" Description="LOC_UNIT_NYGUITA_ZARUG_DESCRIPTION" TraitType="TRAIT_NYGUITA_YEMEN" Tier="1" Maintenance="4" BaseSightRange="3" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_2" Name="LOC_UNIT_NYGUITA_ZARUG_NAME" Description="LOC_UNIT_NYGUITA_ZARUG_2_DESCRIPTION" TraitType="TRAIT_NYGUITA_YEMEN" Tier="2" Maintenance="6" BaseSightRange="3" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_3" Name="LOC_UNIT_NYGUITA_ZARUG_NAME" Description="LOC_UNIT_NYGUITA_ZARUG_2_DESCRIPTION" TraitType="TRAIT_NYGUITA_YEMEN" Tier="3" Maintenance="8" BaseSightRange="3" BaseMoves="5" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true"/>
+		<Row UnitType="UNIT_NYGUITA_KARIMI" Name="LOC_UNIT_NYGUITA_KARIMI_NAME" Description="LOC_UNIT_NYGUITA_KARIMI_DESCRIPTION" TraitType="TRAIT_NYGUITA_YEMEN" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false"  MakeTradeRoute="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" />
+	</Units>
+	<Unit_Stats>
+		<Row UnitType="UNIT_NYGUITA_ZARUG" Combat="30" RangedCombat="5" Bombard="5" Range="1"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_2" Combat="35" RangedCombat="10" Bombard="10" Range="1"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_3" Combat="40" RangedCombat="15" Bombard="15" Range="1"/>
+	</Unit_Stats>
+	<Unit_Costs>
+		<Row UnitType="UNIT_NYGUITA_KARIMI" YieldType="YIELD_PRODUCTION" Cost="45"/> <!--Slightly more expensive-->
+		<Row UnitType="UNIT_NYGUITA_ZARUG" YieldType="YIELD_PRODUCTION" Cost="100"/> <!--Less expensive (they are smaller and Yemen didn't have wood)-->
+		<Row UnitType="UNIT_NYGUITA_ZARUG_2" YieldType="YIELD_PRODUCTION" Cost="120"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_3" YieldType="YIELD_PRODUCTION" Cost="170"/>
+	</Unit_Costs>
+	<UnitUpgrades>
+		<Row Unit="UNIT_NYGUITA_ZARUG" UpgradeUnit="UNIT_NYGUITA_ZARUG_2"/>
+		<Row Unit="UNIT_NYGUITA_ZARUG_2" UpgradeUnit="UNIT_NYGUITA_ZARUG_3"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_NYGUITA_ZARUG_2" ReplacesUnitType="UNIT_PRIVATEER"/>
+		<Row CivUniqueUnitType="UNIT_NYGUITA_ZARUG_3" ReplacesUnitType="UNIT_PRIVATEER_2"/>
+		<Row CivUniqueUnitType="UNIT_NYGUITA_KARIMI" ReplacesUnitType="UNIT_MERCHANT"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="UNIT_CLASS_NYGUITA_ZARUG" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_NYGUITA_KARIMI" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_NYGUITA_ZARUG" Tag="UNIT_CLASS_UNIQUE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG" Tag="UNIT_CLASS_NYGUITA_ZARUG"/>
+		<Row Type="UNIT_NYGUITA_ZARUG" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG" Tag="UNIT_CLASS_NAVAL"/>
+		<Row Type="UNIT_NYGUITA_ZARUG" Tag="UNIT_CLASS_LIGHT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_UNIQUE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_NYGUITA_ZARUG"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_NAVAL"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_LIGHT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_2" Tag="UNIT_CLASS_AUTOEXPLORE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_UNIQUE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_NYGUITA_ZARUG"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_NAVAL"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_LIGHT"/>
+		<Row Type="UNIT_NYGUITA_ZARUG_3" Tag="UNIT_CLASS_AUTOEXPLORE"/>
+		<Row Type="UNIT_NYGUITA_KARIMI" Tag="UNIT_CLASS_UNIQUE"/>
+		<Row Type="UNIT_NYGUITA_KARIMI" Tag="UNIT_CLASS_NYGUITA_KARIMI"/>
+		<Row Type="UNIT_NYGUITA_KARIMI" Tag="UNIT_CLASS_MAKE_TRADE_ROUTE"/>
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_NYGUITA_ZARUG" UnitClassType="UNIT_CLASS_NYGUITA_ZARUG"/>
+		<Row UnitAbilityType="ABILITY_NYGUITA_KARIMI" UnitClassType="UNIT_CLASS_NYGUITA_KARIMI"/>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_NYGUITA_ZARUG" Name="LOC_UNIT_NYGUITA_ZARUG_NAME" Description="LOC_ABILITY_NYGUITA_ZARUG_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_NYGUITA_KARIMI" Name="LOC_UNIT_NYGUITA_KARIMI_NAME" Description="LOC_ABILITY_NYGUITA_KARIMI_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_NYGUITA_ZARUG" ModifierId="NYGUITA_ZARUG_MOD_CAN_MOVE_AFTER_ATTACK_ABILITY"/>
+		<Row UnitAbilityType="ABILITY_NYGUITA_ZARUG" ModifierId="NYGUITA_ZARUG_MOD_PLUNDER_GOLD_ABILITY"/>
+		<Row UnitAbilityType="ABILITY_NYGUITA_ZARUG" ModifierId="NYGUITA_ZARUG_MOD_PLUNDER_FOOD_ABILITY"/>
+		<Row UnitAbilityType="ABILITY_NYGUITA_KARIMI" ModifierId="NYGUITA_KARIMI_MOD_TRADE_CREATION_CULTURE"/>
+		<Row UnitAbilityType="ABILITY_NYGUITA_KARIMI" ModifierId="NYGUITA_KARIMI_MOD_TRADE_CREATION_GOLD"/>
+	</UnitAbilityModifiers>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_NYGUITA_ZARUG" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_NYGUITA_ZARUG_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+	</Unit_Advisories>
+</Database>

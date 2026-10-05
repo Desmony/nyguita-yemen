@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_NYGUITA_YEMEN_DESCRIPTION"><Text>Play as [B]Yemen[/B].</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_NYGUITA_YEMEN_NYGUITA_YEMEN_TOOLTIP"><Text>[B]Yemen[/B] is able to endure throughout the Ages.</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_AKSUM_NYGUITA_YEMEN_TOOLTIP"><Text>[B]Aksum[/B] and [B]Yemen[/B] were neighbours and rivals.</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_NYGUITA_YEMEN_TOOLTIP"><Text>[B]Yemen[/B] complement strategically Hatshepsut</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_1_DESCRIPTION"><Text>Import 15 Resources</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_1_TOOLTIP"><Text>Merchant from all over the world traded in [B]Yemen[/B].</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_1_NARRATIVE"><Text>After months of travelling, a merchant finally arrive in a {1_Civilization_Adj} market. Someone is trading spices for pearls, another is exchanging ebony for fine textiles. The abundance of the world can be seen here, each corner revealing new treasures from far away. The merchant settles down and prepares their table, certain of the new goods they will acquire.</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_2_DESCRIPTION"><Text>Improve 3 Incenses</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_2_TOOLTIP"><Text>[B]Incense[/B] was an important commodity to [B]Yemen[/B].</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_2_NARRATIVE"><Text>Our strategic position in the incense trade attracts settlers from beyond the horizon. The frankincense and myrrh trees are a source of wealth making {1_Civilization_Adj} rulers the dominant economic force in the region. But the abundance of gold doesn't corrupt them, as the smell of incense inspire them instead to study God's creation.</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_3_DESCRIPTION"><Text>Improve 3 Dates</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_3_TOOLTIP"><Text>[B]Dates[/B] was an important commodity to [B]Yemen[/B].</Text></Row>
+	<Row Tag="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_3_NARRATIVE"><Text>The date palm tree, like {1_Civilization_Adj} tribes here, is able to flourish in the harshest part of the desert. More than a simple fruit, the date enable the {1_Civilization_Adj}s to settle where no other went before and to establish cruicial stop points to whoever dares to travels through the desert to search new riches.</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_IBN_BATTUTA_NYGUITA_YEMEN_TOOLTIP"><Text>Ibn Battuta visited [B]Yemen[/B]</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_XERXES_ALT_NYGUITA_YEMEN_TOOLTIP"><Text>[B]Yemen[/B] complement strategically Xerxes</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_NYGUITA_YEMEN_OTTOMAN_TOOLTIP"><Text>[B]Yemen[/B] was later conquered by the [B]Ottomans[/B].</Text></Row>
+	<Row Tag="LOC_UNLOCK_PLAY_AS_NYGUITA_YEMEN_MUGHAL_TOOLTIP"><Text>[B]Yemen[/B] had close trading ties with the [B]Mughals[/B].</Text></Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="NYGUITA_ZARUG_MOD_CAN_MOVE_AFTER_ATTACK_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVE_AFTER_ATTACK">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="NYGUITA_ZARUG_MOD_PLUNDER_GOLD_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COASTAL_RAID_YIELD_MODIFIER">
+		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
+		<Argument name="Percent">25</Argument>
+	</Modifier>
+	<Modifier id="NYGUITA_ZARUG_MOD_PLUNDER_FOOD_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COASTAL_RAID_YIELD_MODIFIER">
+		<Argument name="PlunderTypes">PLUNDER_FOOD_TOWN</Argument>
+		<Argument name="Percent">25</Argument>
+	</Modifier>
+	<Modifier id="NYGUITA_KARIMI_MOD_TRADE_CREATION_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMMAND_AWARD">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_CITY_FOLLOWS_RELIGION" inverse="true"/>
+		</OwnerRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">100</Argument>
+		<Argument name="CommandType">UNITCOMMAND_MAKE_TRADE_ROUTE</Argument>
+	</Modifier>
+	<Modifier id="NYGUITA_KARIMI_MOD_TRADE_CREATION_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMMAND_AWARD">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_CITY_FOLLOWS_RELIGION">
+				<Argument name="cityReligion">false</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">100</Argument>
+		<Argument name="CommandType">UNITCOMMAND_MAKE_TRADE_ROUTE</Argument>
+	</Modifier>
+</GameEffects>

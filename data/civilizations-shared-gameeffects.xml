@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Antiquity -->
+	<Modifier id="MOD_NYGUITA_YEMEN_AQ_SCIENCE_FOR_RESOURCES_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_ALTAR</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_AQ_GOLD_FOR_RESOURCES_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- Exploration -->
+	<Modifier id="MOD_NYGUITA_YEMEN_EX_SCIENCE_FOR_RESOURCES_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_FOLLOWS_RELIGION"/>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_EX_GOLD_FOR_RESOURCES_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- Modern -->
+	<Modifier id="MOD_NYGUITA_YEMEN_MO_SCIENCE_FOR_RESOURCES_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_FOLLOWS_RELIGION"/>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_MO_GOLD_FOR_RESOURCES_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_REPLACE_UI_MO" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
+		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_REPLACE_UI_EX" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
+            	<Argument name="Percent">99</Argument>
+            	<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
+        	</Requirement>
+		</OwnerRequirements>
+		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
+		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+	</Modifier>
+</GameEffects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_1"><Text>Ahmad</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_1"><Text>Arwa</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_2"><Text>Ali</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_2"><Text>Asma</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_3"><Text>Makhdum</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_3"><Text>Dahma</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_4"><Text>Muhammad</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_4"><Text>Maymuna</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_5"><Text>Ja'far</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_5"><Text>Fatima</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_6"><Text>Lamak</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_6"><Text>Saba</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_7"><Text>Abdallah</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_7"><Text>Nabila</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_8"><Text>Ibrahim</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_8"><Text>Zaynab</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_9"><Text>Abbas</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_9"><Text>Ibtisam</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_MALE_10"><Text>Hatim</Text></Row>
+		<Row Tag="LOC_CITIZEN_NYGUITA_YEMEN_FEMALE_10"><Text>Amal</Text></Row>
+	</EnglishText>
+</Database>

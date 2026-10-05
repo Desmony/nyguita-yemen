@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" CivilizationName="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" CivilizationFullName="LOC_CIVILIZATION_NYGUITA_YEMEN_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_NYGUITA_YEMEN_DESCRIPTION" CivilizationIcon="nyguita_yemen_icon.png" CivilizationIntroText="LOC_LOADING_CIV_INTRO_TEXT_NYGUITA_YEMEN"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" AgeType="AGE_ANTIQUITY" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="TRAIT_NYGUITA_YEMEN_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME" Description="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_AQ_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" AgeType="AGE_EXPLORATION" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="TRAIT_NYGUITA_YEMEN_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME" Description="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" AgeType="AGE_MODERN" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="TRAIT_NYGUITA_YEMEN_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME" Description="LOC_TRAIT_NYGUITA_YEMEN_ABILITY_MO_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="UNIT_NYGUITA_ZARUG" Kind="KIND_UNIT" Name="LOC_UNIT_NYGUITA_ZARUG_NAME" Description="LOC_UNIT_NYGUITA_ZARUG_BASE_DESCRIPTION" Icon="unitflag_nyguita_yemen_zarug.png"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="UNIT_NYGUITA_KARIMI" Kind="KIND_UNIT" Name="LOC_UNIT_NYGUITA_KARIMI_NAME" Description="LOC_UNIT_NYGUITA_KARIMI_DESCRIPTION" Icon="unitflag_nyguita_yemen_karimi.png"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_NAME" Description="LOC_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_DESCRIPTION" Icon="impicon_nyguita_yemen_date_palm_plantation.png"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" Type="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Kind="KIND_WONDER" Name="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_NAME" Description="LOC_WONDER_NYGUITA_AL_QAHIRA_CASTLE_DESCRIPTION" Icon="wondericon_nyguita_yemen_al_qahira_castle.png"/>
+	</CivilizationItems>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_OTTOMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_OTTOMANS_NAME" Description="LOC_CIVILIZATION_OTTOMAN_DESCRIPTION" Icon="CIVILIZATION_OTTOMAN"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AKSUM" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Description="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Icon="CIVILIZATION_NYGUITA_YEMEN"/>
+	</CivilizationUnlocks>
+	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TagType="TAG_APEX_AGE_EXPLORATION" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TagType="TAG_TRAIT_ECONOMIC" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" TagType="TAG_TRAIT_SCIENTIFIC" />
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" LeaderDomain="StandardLeaders" LeaderType="LEADER_HATSHEPSUT" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_NYGUITA_YEMEN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" LeaderDomain="StandardLeaders" LeaderType="LEADER_IBN_BATTUTA" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_IBN_BATTUTA_NYGUITA_YEMEN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+	</LeaderCivilizationBias>
+	<LeaderUnlocks>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_HATSHEPSUT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Description="LOC_CIVILIZATION_NYGUITA_YEMEN_DESCRIPTION" Icon="CIVILIZATION_NYGUITA_YEMEN"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_IBN_BATTUTA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Description="LOC_CIVILIZATION_NYGUITA_YEMEN_DESCRIPTION" Icon="CIVILIZATION_NYGUITA_YEMEN"/>
+	</LeaderUnlocks>
+	<OwnershipConditions>
+		<Row ItemType="CIVILIZATION_NYGUITA_YEMEN" Action="LOC_LOCKED_INCLUDED_WITH_CONTENT" />
+	</OwnershipConditions>
+</Database>

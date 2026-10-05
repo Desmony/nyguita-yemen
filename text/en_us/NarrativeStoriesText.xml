@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merge into text/en_us/NarrativeStoriesText.xml (Row format). -->
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_A_STORYTITLE">
+            <Text>The Good Doctor in Yemen</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_A_COMPLETION">
+            <Text>On its way to meet the Sultan, Dr Rizal is taken aback when traversing the bazaar and the immense variety of products. To observe it all would take a long time, a time that could be spent talking with the Sultan.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_B_NAME">
+            <Text>Take the time to impregnate yourself with the sounds and smells of the location.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_C_NAME">
+            <Text>Ask the Sultan about the logistics of the market.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_A_STORYTITLE">
+            <Text>The end of the world has a Date, or not</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_A_COMPLETION">
+            <Text>Because of reasons beyond our means (some scholars are talking about a transition), our Date Palm Plantations refuse to bear fruit this year. But hope is not lost, as we are certain that the Dates will come back.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_B_NAME">
+            <Text>We will survive this.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_B_DESCRIPTION">
+            <Text>The Date Palm Plantation will temporarly not give Dates this turn.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_A_STORYTITLE">
+            <Text>The Great Book of a Dynasty</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_A_COMPLETION">
+            <Text>A scholar was asked by the Sultan to write a great book to record his legacy and how well they ruled the land. The scholar doesn't have to lie, they can see how they turned the desert into a magnificient trading hub. But what to write? What to focus on?</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_B_NAME">
+            <Text>It will be a detailled record of all production, inventory and trade in all the kingdom.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_C_NAME">
+            <Text>It will be an encyclopedia on the efficiency of different fiscal and administrative policies.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+    </EnglishTextt>
+</Database>

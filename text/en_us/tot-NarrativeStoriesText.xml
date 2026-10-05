@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_STORYTITLE">
+            <Text>The Commercial Hub of the World</Text>
+        </Row>
+        <Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_COMPLETION">
+            <Text>On the arid shores lies a small village. It has no water nor pasture. And yet, this is where merchants from all around the world stop to rest. Foreign ships come and leave every day, leaving behind not only goods but also wisdom.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_NAME">
+            <Text>We shall host all the riches of the world.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_NAME">
+            <Text>Surely those who come from far away have interesting things to say.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_MODERN_NYGUITA_YEMEN_A_STORYTITLE">
+            <Text>The Place to do Business</Text>
+        </Row>
+        <Row Tag="LOC_TOT_MODERN_NYGUITA_YEMEN_A_COMPLETION">
+            <Text>The steam has replaced the sail, coal has replaced horses, coffee has replaced incense. The ports have never been busier and migrants from all parts of the globe are coming not only to witness the prosperity of Yemen but also take their chance at the magnificient enterprise. Free from the fear of poverty, scholars can fully devote themselves to the studies of the texts.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_MODERN_NYGUITA_YEMEN_B_NAME">
+            <Text>The City of the World is open to business.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_MODERN_NYGUITA_YEMEN_B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_MODERN_NYGUITA_YEMEN_C_NAME">
+            <Text>The coin will lose its shine. The mind will not.</Text>
+        </Row>
+        <Row Tag="LOC_TOT_MODERN_NYGUITA_YEMEN_C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+	</EnglishText>
+</GameData>

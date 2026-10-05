@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civilization Names-->
+		<Row Tag="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME"><Text>Yemen</Text></Row>
+		<!--Civilization Full Names-->
+		<Row Tag="LOC_CIVILIZATION_NYGUITA_YEMEN_FULLNAME"><Text>Yemeni Empire</Text></Row>
+		<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_NYGUITA_YEMEN_ADJECTIVE"><Text>Yemeni</Text></Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- CIVILIZATION_NYGUITA_YEMEN -->
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_1">
+			<Text>With its long sea border between early civilizations, Yemen has long existed at a crossroads of cultures with a strategic location in terms of trade on the west of the Arabian Peninsula. Large settlements for their era existed in the mountains of northern Yemen as early as 5000 BC. Important kingdoms were born here like the Sabaean Kingdom who was a rival to the Aksumite Empire and the Himyarite Kingdom who resisted a Roman invasion. The Sasanid empire annexed Aden around 570. Under their rule, most of Yemen enjoyed great autonomy except for Aden and Sanaa. This era marked the collapse of ancient South Arabian civilization, since the greater part of the country was under several independent clans.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_2">
+			<Text>Prophet Muhammad sent his cousin Ali to Sanaa and its surroundings around 630. At the time, Yemen was the most advanced region in Arabia. The country was stable during the Rashidun Caliphate. Yemeni tribes played a pivotal role in the Islamic conquests of Egypt, Iraq, Persia, the Levant, Anatolia, North Africa, Sicily and Andalusia. Several emirates led by people of Yemeni descent were established in North Africa and Andalusia. After local chiefs repelled the Ummayads and the Abbasids, multiple kings shared the lands of Yemen, like the Ziyadids, Yufirids, Hadramawt and Zaidis.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_3">
+			<Text>By 1063, Ali ibn Mohammed Al-Salayhi subjugated Greater Yemen and founded the Sulayhid dynasty. They ruled over Yemen for about a century before being conquered by Saladin. The Ayyubid rule was stable in southern and central Yemen where they succeeded in eliminating the mini-states of that region, while Ismaili and Zaidi tribesmen continued to hold out in a number of fortresses. The Ayyubid army was defeated in Dhamar in 1226. Ayyubid Sultan Mas'ud Yusuf left for Mecca in 1228 never to return.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_4">
+			<Text>The Rasulid Dynasty was established in 1229 by Umar ibn Rasul. Umar ibn Rasul was appointed deputy governor by the Ayyubids in 1223. When the last Ayyubid ruler left Yemen in 1229, Umar stayed in the country as caretaker. He subsequently declared himself an independent king. Umar established the Rasulid dynasty on a firm foundation and expanded its territory to include the area from Dhofar to Mecca. After the fall of Baghdad to the Mongols in 1258, al-Muzaffar Yusuf I appropriated the title of caliph.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_5">
+			<Text>The Rasulid state nurtured Yemen's commercial links with India and the Far East. They profited greatly by the Red Sea transit trade via Aden and Zabid. The economy also boomed due to the agricultural development programs instituted by the kings who promoted massive cultivation of palms.  It was during this period that coffee became a lucrative cash crop in Yemen. Under their rule, Ta'izz and Zabid became major international centers of Islamic learning. The Kings themselves were learned men in their own right who not only had important libraries but who also wrote treatises on a wide array of subjects, ranging from astrology and medicine to agriculture and genealogy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_6">
+			<Text>Following disgruntled family members over the problem of succession and combined by periodic tribal revolts, the Rasulid Dynasty fell to a local clan - the Tahirids. While they were not as impressive as their predecessors, they were still keen builders. They built schools, mosques and irrigation channels as well as water cisterns and bridges in Zabid and Aden, Rada'a, and Juban. However, foreigns threats like the Mamluks of Egypt and Portugal weakened the trade monopoly in the Red Sea. The kingdom was breifly occupied by the Mamluk until being conquered by the Ottomans in 1538.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_CIVILIZATION_NYGUITA_YEMEN_CHAPTER_HISTORY_PARA_7">
+			<Text>Yemeni resistance didn't stopped however. While the Ottomans regained control of holy cities of Mecca and Medina, Yemen still retained some kind independance against the Turks. With many failed attempts by the Ottomans to stabilize the region, the British, looking for a stopping point between London and Delhi, took the opportunity to declare friendship with local Yemeni rulers and got footholds in various ports of the Yemeni coast, leading to the creation of the Aden Protectorate.</Text>
+		</Row>
+		<!--IMPROVEMENT-->
+		<Row Tag="LOC_PEDIA_PAGE_IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_CHAPTER_HISTORY_PARA_1">
+			<Text>Descending from the southwestern plateau of Yemen's Hadhramout province and stretching to the Arabian Sea, a historic valley called Wadi Hajar has long sheltered Yemen's artisanal date industry from the passage of time. Once known as "the valley of a million palm trees," the wadi's basin spans some 10,000 square kilometers and is fed by stream beds that keep flowing all year round. Date palm cultivation in Yemen started in the early Iron Age and is still cultivated to this day. Dates are a staple food in the Middle-East, being able to survive in very arid regions and being rich in nutriments. Moreover, date palm trees provides shade which can be used to rest or to grow other plants.</Text>
+		</Row>
+		<!--Civics-->
+		<Row Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_CHAPTER_HISTORY_PARA_1">
+			<Text>Yemen is one of the oldest centers of civilization in the Near East. Its relatively fertile land and adequate rainfall in a moister climate helped sustain a stable population, a feature recognized by the ancient Greek geographer Ptolemy, who described Yemen as Eudaimon Arabia, meaning "Fertile Arabia" or "Happy Arabia". The place gave birth to multiple civilizations like the Sabaean Kingdom (where the Queen of Sheba would be from) and the Himyarites who repelled the Romans. Its strategic position enabled Yemen to be the crossroads between Africa, India and Europe.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_CHAPTER_HISTORY_PARA_1">
+			<Text>The Nūr al-ma‘ārif assembles much of the palace archives of the Rasulid Sultan al-Muzaffar, and provides an extraordinary and detailed insight into the administration, economy, foreign relations and international trade of the Rasulid state at its political, military and civilizational apogee. Ayyubid rule in Yemen modernised and radically transformed much of the country by introducing feudal and taxation systems which were continued under the Rasulids. The book is a testimony to the wealth of Yemen, list the products produced in Yemen (cotton, saffron, madder, indigo, incense, swords, paper, books), their imports (pepper, cloves, cinnamon, ginger, wood, and iron) and their exports (mainly horses).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_CHAPTER_HISTORY_PARA_1">
+			<Text>The Imams of Yemen were religiously consecrated leaders (imams) belonging to the Zaydi branch of Shia Islam. They established a blend of religious and temporal-political rule in parts of Yemen from 897. Their imamate endured under varying circumstances until the end of the North Yemen civil war in 1970, following the republican revolution in 1962. Zaydism is a branch of Shia Islam who is mainly present in Yemen. Zaydis regard rationalism as more important than Quranic literalism and historically were quite tolerant towards Shafi'i Sunnism, the jurisprudential school of about half of the Yemenis.</Text>
+		</Row>
+		<!-- WONDER_NYGUITA_AL_QAHIRA_CASTLE -->
+		<Row Tag="LOC_PEDIA_PAGE_WONDER_NYGUITA_AL_QAHIRA_CASTLE_CHAPTER_HISTORY_PARA_1">
+			<Text>Al-Qahira Castle is a historical castle in the ancient city of Taiz. It is located on the northern slope of Mount Sabr, which is based on rocky highlands overlooking the city. It consists of two sections. The first one has gardens built on the slope of the mountain with water basins and mansions, towers and parks. It held four palaces who served as the residence of the Sultan as well as a guest house. The whole lot is linked via secret tunnels. The second part consists of other palaces, water reservoirs and grain silos. The walls of the castle reaches the city and at the entrance of the castle, there is a small park and a madrasah.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_WONDER_NYGUITA_AL_QAHIRA_CASTLE_CHAPTER_HISTORY_PARA_2">
+			<Text>In 2015, during the course of the Yemeni Civil War, the castle was taken over by Houthi rebels, and struck by an airstrike of the Saudi-led coalitions afterwards. The local outlet stated that the castle was "destroyed", although the level of destruction remains unclear. The castle was later taken over by al-Qaeda-linked Abu Al Abbas Brigades, who used it as a military barracks. On 26 August 2018, the castle was reported to be under the control of the internationally recognized Yemeni government who reopened it for visitors after defeating the UAE-backed Abu Al Abbas Brigades. The castle was closed for 4 years and was being used as barracks.</Text>
+		</Row>
+		<!-- UNIQUE_CIVILIAN-->
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_NYGUITA_KARIMI_CHAPTER_HISTORY_PARA_1">
+			<Text>The Karimi merchants were muslim merchants who operated mostly in the Red Sea, between Egypt and Yemen. The Karimis therefore were mostly Egyptian and Yemeni but also Persian, Anatolian and even Indian. The karimis had special privileges given by the Sultan who guaranteed their protection in exchange of a hefty tax in their profits. At its peak in the 14th century, the trade network went from West Africa to France to the Swahili coast to China. The karimis were also used as diplomats as they knew how to find shared commercial customs among different religions.</Text>
+		</Row>
+		<!-- UNIQUE_UNIT-->
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_NYGUITA_ZARUG_CHAPTER_HISTORY_PARA_1">
+			<Text>A zarug (also spelt zaruk or zaruka) is a type of sailing vessel mainly used on the coasts of Yemen and in the Red Sea. It evolved from the dhow and is a cousin to the Arabian baghlah, the Omani sambuk or the Zanzibari jahazi. The zarug differs to those ships by its shape (a pointed stern against a square one) but also by its size – barely reaching 7~10 meters while other ships would be 3 times as large. This can be explained by Yemen's lack of wood, forcing them to import them from the island of Socotra.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_NYGUITA_ZARUG_CHAPTER_HISTORY_PARA_2">
+			<Text>But it is its size and shape that makes it the quickest sailing vessel on the Red Sea and the Indian Ocean, making it the prime ship for pirates, smugglers and slave traders. The speed was limited to seas with favorable weather but when it was the case, it could go from East Africa to the coasts of India.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_UNIT_NYGUITA_ZARUG_CHAPTER_HISTORY_PARA_3">
+			<Text>The zarug is still used to this day, outclassing modern-day torpedo launchers. It is also used in racing sports, tho the ship is almost banned from being too dominant.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>
+				

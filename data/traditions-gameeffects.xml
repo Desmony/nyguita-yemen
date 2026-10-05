@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_UNLOCK_NYGUITA_YEMEN_SYNCRETISM_ANTIQUITY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_NYGUITA_YEMEN_SYNCRETISM_ANTIQUITY</Argument>
+	</Modifier>
+	<Modifier id="MOD_UNLOCK_NYGUITA_YEMEN_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_NYGUITA_YEMEN_SYNCRETISM_MODERN</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_YIELDS_ON_GOLD_BUILDING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">GOLD</Argument>
+		<Argument name="YieldType">YIELD_GOLD, YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_NYGUITA_QAW_ID_AL_SAB_N_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_YIELDS_ON_GOLD_BUILDING_AQ" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">GOLD</Argument>
+		<Argument name="YieldType">YIELD_GOLD, YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_NYGUITA_QAW_ID_AL_SAB_N_AQ_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_GOLD_ON_NAVAL_TRADE_ROUTES" collection="COLLECTION_PLAYER_TRADE_ROUTES" effect="EFFECT_PLAYER_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_TRADE_ROUTE_IS_DOMAIN">
+				<Argument name="DomainType">DOMAIN_SEA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_NYGUITA_SHAW_N_NAME</Argument>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_SCIENCE_ON_PALACES" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">ScholarSultanISciencePalace</Argument>
+		<String context="Description">LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_NAME</String>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_SCIENCE_ON_CITY_HALLS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">ScholarSultanIScienceCityHall</Argument>
+		<String context="Description">LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_NAME</String>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_SCIENCE_ON_PALACES_MO" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">ScholarSultanIISciencePalace</Argument>
+		<String context="Description">LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_MO_NAME</String>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_SCIENCE_ON_CITY_HALLS_MO" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">ScholarSultanIIScienceCityHall</Argument>
+		<String context="Description">LOC_TRADITION_NYGUITA_SCHOLAR_SULTANS_MO_NAME</String>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_IMPORTED_RESOURCE_GOLD_AQ" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_ANTIQUITY_NAME</Argument>
+		<String context="Description">LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_ANTIQUITY_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_IMPORTED_RESOURCE_GOLD_MO" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">4</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_MODERN_NAME</Argument>
+		<String context="Description">LOC_TRADITION_NYGUITA_YEMEN_SYNCRETISM_MODERN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_ADDITIONAL_RESOURCE_SLOTS_MO" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+</GameEffects>

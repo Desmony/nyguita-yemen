@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_NYGUITA_YEMEN" UnlockRewardType="CIVILIZATION_NYGUITA_YEMEN" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" ConfigurationValue="CIVILIZATION_NYGUITA_YEMEN"/>
+	</UnlockConfigurationValues>
+	<RequirementSets>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_NYGUITA_YEMEN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_1" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_2" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_3" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_NYGUITA_YEMEN" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPORTS_15_RESOURCES" RequirementType="REQUIREMENT_PLAYER_HAS_X_IMPORTED_RESOURCES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPROVED_3_INCENSE" RequirementType="REQUIREMENT_PLAYER_TOTAL_IMPROVED_RESOURCES"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPROVED_3_DATES" RequirementType="REQUIREMENT_PLAYER_TOTAL_IMPROVED_RESOURCES"/>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_NYGUITA_YEMEN" Name="CivilizationType" Value="CIVILIZATION_NYGUITA_YEMEN"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPORTS_15_RESOURCES" Name="Count" Value="15"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPROVED_3_INCENSE" Name="Amount" Value="3"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPROVED_3_INCENSE" Name="ResourceType" Value="RESOURCE_INCENSE"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPROVED_3_DATES" Name="Amount" Value="3"/>
+		<InsertOrIgnore RequirementId="REQ_CIV_IMPROVED_3_DATES" Name="ResourceType" Value="RESOURCE_DATES"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_NYGUITA_YEMEN" RequirementId="REQ_CIV_IS_NYGUITA_YEMEN"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_1" RequirementId="REQ_CIV_IMPORTS_15_RESOURCES"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_1" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_2" RequirementId="REQ_CIV_IMPROVED_3_INCENSE"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_2" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_3" RequirementId="REQ_CIV_IMPROVED_3_DATES"/>
+		<InsertOrIgnore RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_3" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_LEADER_IS_HATSHEPSUT" Description="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_NYGUITA_YEMEN_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_LEADER_IS_IBN_BATTUTA" Description="LOC_UNLOCK_PLAY_AS_IBN_BATTUTA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_IBN_BATTUTA_NYGUITA_YEMEN_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_LEADER_IS_XERXES_ALT" Description="LOC_UNLOCK_PLAY_AS_XERXES_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_XERXES_ALT_NYGUITA_YEMEN_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_1" Description="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_1_DESCRIPTION" Tooltip="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_1_TOOLTIP" GameplayUnlock="True" NarrativeText="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_1_NARRATIVE"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_2" Description="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_2_DESCRIPTION" Tooltip="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_2_TOOLTIP" GameplayUnlock="True" NarrativeText="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_2_NARRATIVE"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_NYGUITA_YEMEN" RequirementSetId="REQSET_NYGUITA_YEMEN_GAMEPLAY_3" Description="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_3_DESCRIPTION" Tooltip="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_3_TOOLTIP" GameplayUnlock="True" NarrativeText="LOC_UNLOCK_NYGUITA_YEMEN_GAMEPLAY_3_NARRATIVE"/>
+	</UnlockRequirements>
+</Database>

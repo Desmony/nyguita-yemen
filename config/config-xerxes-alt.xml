@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NYGUITA_YEMEN" LeaderDomain="StandardLeaders" LeaderType="LEADER_XERXES_ALT" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_XERXES_ALT_NYGUITA_YEMEN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+	</LeaderCivilizationBias>
+	<LeaderUnlocks>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_XERXES_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NYGUITA_YEMEN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NYGUITA_YEMEN_NAME" Description="LOC_CIVILIZATION_NYGUITA_YEMEN_DESCRIPTION" Icon="CIVILIZATION_NYGUITA_YEMEN"/>
+	</LeaderUnlocks>
+</Database>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TREE"/>
+		<InsertOrIgnore Kind="KIND_TREE_NODE"/>
+	</Kinds>
+	<Types>
+		<Row Type="TREE_CIVICS_EX_NYGUITA_YEMEN" Kind="KIND_TREE"/>
+		<Row Type="NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM" Kind="KIND_TREE_NODE"/>
+	</Types>
+	<TypeQuotes>
+		<Row Type="NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA" Quote="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_AUTHOR"/>
+		<Row Type="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF" Quote="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_AUTHOR"/>
+		<Row Type="NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM" Quote="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_AUTHOR"/>
+	</TypeQuotes>
+	<ProgressionTrees>
+		<Row ProgressionTreeType="TREE_CIVICS_EX_NYGUITA_YEMEN" AgeType="AGE_EXPLORATION" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_NYGUITA_YEMEN_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA" ProgressionTree="TREE_CIVICS_EX_NYGUITA_YEMEN" Cost="800" Name="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA_NAME" IconString="cult_nyguita_yemen" CivInjectedIcon="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF" ProgressionTree="TREE_CIVICS_EX_NYGUITA_YEMEN" Cost="1200" Name="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF_NAME" IconString="cult_nyguita_yemen" CivInjectedIcon="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM" ProgressionTree="TREE_CIVICS_EX_NYGUITA_YEMEN" Cost="2000" Name="LOC_NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM_NAME" IconString="cult_nyguita_yemen" CivInjectedIcon="1"/>
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA" TargetKind="KIND_TRADITION" TargetType="TRADITION_NYGUITA_QAW_ID_AL_SAB_N" UnlockDepth="1"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF" TargetKind="KIND_TRADITION" TargetType="TRADITION_NYGUITA_SHAW_N" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF" TargetKind="KIND_MODIFIER" TargetType="MOD_TOT_TRADITION_SLOT" UnlockDepth="1"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM" TargetKind="KIND_TRADITION" TargetType="TRADITION_NYGUITA_SCHOLAR_SULTANS" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_NYGUITA_AL_QAHIRA_CASTLE" UnlockDepth="1"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+		<Row Node="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF" PrereqNode="NODE_CIVIC_EX_NYGUITA_YEMEN_FELICITOUS_ARABIA"/>
+		<Row Node="NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM" PrereqNode="NODE_CIVIC_EX_NYGUITA_YEMEN_N_R_AL_MA_RIF"/>
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+	</ProgressionTree_Advisories>
+</Database>
