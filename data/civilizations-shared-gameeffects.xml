@@ -78,6 +78,20 @@
 		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
 		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
 	</Modifier>
+	<Modifier id="MOD_NYGUITA_YEMEN_REMOVE_DATES" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_PLACE_RESOURCE" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
+            	<Argument name="Percent">99</Argument>
+            	<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
+        	</Requirement>
+		</OwnerRequirements>
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ResourceType">NO_RESOURCE</Argument>
+	</Modifier>
 	<Modifier id="MOD_NYGUITA_YEMEN_REPLACE_UI_EX" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
 		<OwnerRequirements>
 			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
