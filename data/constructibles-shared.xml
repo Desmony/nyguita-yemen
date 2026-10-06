@@ -4,8 +4,10 @@
 		<Row ID="ScholarSultanISciencePalace" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
 		<Row ID="ScholarSultanIISciencePalace" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
 	</Adjacency_YieldChanges>
-	<Constructible_WildcardAdjacencies>
-		<Row YieldChangeId="ScholarSultanISciencePalace" RequiresActivation="true" ConstructibleTag="PERSISTANT"/>
-		<Row YieldChangeId="ScholarSultanIISciencePalace" RequiresActivation="true" ConstructibleTag="PERSISTANT"/>
-	</Constructible_WildcardAdjacencies>
+	<Constructible_Adjacencies>
+		<Row YieldChangeId="ScholarSultanISciencePalace" RequiresActivation="true" ConstructibleType="BUILDING_PALACE"/>
+		<Row YieldChangeId="ScholarSultanISciencePalace" RequiresActivation="true" ConstructibleType="BUILDING_CITY_HALL"/>
+		<Row YieldChangeId="ScholarSultanIISciencePalace" RequiresActivation="true" ConstructibleType="BUILDING_PALACE"/>
+		<Row YieldChangeId="ScholarSultanIISciencePalace" RequiresActivation="true" ConstructibleType="BUILDING_CITY_HALL"/>
+	</Constructible_Adjacencies>
 </Database>
