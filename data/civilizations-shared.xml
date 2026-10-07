@@ -107,6 +107,7 @@
 		<Row ListType="Nyguita's Yemen PseudoYield Biases" LeaderType="TRAIT_NYGUITA_YEMEN" System="PseudoYieldBiases" />
 		<Row ListType="Nyguita's Yemen Constructibles Biases" LeaderType="TRAIT_NYGUITA_YEMEN" System="ConstructibleBiases" />
 		<Row ListType="Nyguita's Yemen Settlement Plot Conditions" LeaderType="TRAIT_NYGUITA_YEMEN" System="SettlementPlotEvaluations" />
+		<Row ListType="Nyguita's Yemen Tag Biases" LeaderType="TRAIT_NYGUITA_YEMEN" System="TagBiases" />
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="Nyguita's Yemen Unit Biases" Item="UNIT_NYGUITA_ZARUG" Value="50" />
@@ -117,6 +118,10 @@
 		<Row ListType="Nyguita's Yemen PseudoYield Biases" Item="PSEUDOYIELD_RESOURCE_IMPORT" Value="200" />
 		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="WONDER_NYGUITA_AL_QAHIRA_CASTLE" Value="50" />
 		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION" Value="200" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="BUILDING_BAZAAR" Value="200" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="BUILDING_GUILDHALL" Value="200" />
+		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="BUILDING_WHARF" Value="200" />
+		<Row ListType="Nyguita's Yemen Tag Biases" Item="TRADE" Value="50" />
 		<Row ListType="Nyguita's Yemen Constructibles Biases" Item="IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE" Value="250" />
 		<Row ListType="Nyguita's Yemen Settlement Plot Conditions" Item="Coastal" Favored="false" Value="15" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_COAST"/>
     	<Row ListType="Nyguita's Yemen Settlement Plot Conditions" Item="Coastal" Favored="false" Value="15" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_COAST"/>

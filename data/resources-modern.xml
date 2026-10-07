@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Resources>
+		<Update><Where ResourceType="RESOURCE_DATES"/><Set UnlocksCiv="true"/></Update>
+		<Update><Where ResourceType="RESOURCE_INCENSE"/><Set UnlocksCiv="true"/></Update>
+	</Resources>
+	<Resource_ValidAges>
+		<Row ResourceType="RESOURCE_DATES" AgeType="AGE_MODERN"/>
+	</Resource_ValidAges>
+</Database>

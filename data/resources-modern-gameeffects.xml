@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_DATES_CITY_FLAT_FOOD" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="Amount">3</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="ResourceType">RESOURCE_DATES</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+	</Modifier>
+	<Modifier id="MOD_DATES_CITY_FLAT_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="Amount">3</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="ResourceType">RESOURCE_DATES</Argument>
+		<Argument name="PercentMultiplier">false</Argument>
+	</Modifier>
+</GameEffects>

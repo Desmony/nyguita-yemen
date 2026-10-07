@@ -99,6 +99,7 @@
 					<Item>data/narrative-stories-common-gameeffects.xml</Item>
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/loading-info-exploration.xml</Item>
+					<Item>data/resources.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
 					<Item>assets/bg-card-nyguita_yemen</Item>
@@ -151,6 +152,9 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/progression-trees-techs.xml</Item>
 				</UpdateDatabase>
+				<UpdateVisualRemaps>
+					<Item>data/visual-remaps.xml</Item>
+				</UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-main-nyguita-yemen" scope="game" criteria="modern-age-current">
@@ -160,7 +164,12 @@
 					<Item>data/tot-modern-narrative-stories-gameeffects.xml</Item>
 					<Item>data/tot-modern-narrative-stories.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
+					<Item>data/resources-modern.xml</Item>
+					<Item>data/resources-modern-gameeffects.xml</Item>
 				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/ResourcesText.xml</Item>
+				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="base-game-unlocks-nyguita-yemen-ottomans" scope="game" criteria="ottomans-current">

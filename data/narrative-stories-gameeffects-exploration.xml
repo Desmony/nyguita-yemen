@@ -14,10 +14,10 @@
         <Argument name="YieldType">YIELD_SCIENCE</Argument>
         <Argument name="MultiplierType">REWARD_TYPE_MINOR_EARLY</Argument>
     </Modifier>
-    <Modifier id="NYGUITA_YEMEN_DATES_UI_B_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" run-once="false" permanent="true">
+    <!--Modifier id="NYGUITA_YEMEN_DATES_UI_B_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" run-once="false" permanent="true">
 		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
 		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
-    </Modifier>
+    </Modifier-->
     <Modifier id="NYGUITA_YEMEN_STORY_01_B_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
         <Argument name="AttributeType">ATTRIBUTE_ECONOMIC</Argument>
         <Argument name="Amount">1</Argument>
@@ -44,7 +44,7 @@
             <Argument name="GOSSIP_PLAYERS_MEET01">Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_NYGUITA_YEMEN</Argument>
         </Requirement>
     </RequirementSet>
-    <RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_NARRATIVE">
+    <!--RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
         <Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
             <Argument name="Percent">99</Argument>
@@ -54,7 +54,7 @@
             <Argument name="Amount">1</Argument>
             <Argument name="BuildingType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
         </Requirement>
-    </RequirementSet>
+    </RequirementSet-->
     <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_01_A_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">

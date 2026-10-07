@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <VisualRemaps>
+        <Row>
+            <ID>REMAP_UNIT_NYGUITA_ZARUG</ID>
+            <DisplayName>LOC_UNIT_NYGUITA_ZARUG_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_NYGUITA_ZARUG</From>
+            <To>UNIT_PRIVATEER</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_NYGUITA_ZARUG_2</ID>
+            <DisplayName>LOC_UNIT_NYGUITA_ZARUG_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_NYGUITA_ZARUG_2</From>
+            <To>UNIT_PRIVATEER</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_NYGUITA_ZARUG_3</ID>
+            <DisplayName>LOC_UNIT_NYGUITA_ZARUG_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_NYGUITA_ZARUG_3</From>
+            <To>UNIT_PRIVATEER_2</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_NYGUITA_KARIMI</ID>
+            <DisplayName>LOC_UNIT_NYGUITA_KARIMI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_NYGUITA_KARIMI</From>
+            <To>UNIT_MERCHANT</To>
+        </Row>
+    </VisualRemaps>
+</Database>

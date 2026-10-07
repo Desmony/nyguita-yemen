@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_ANT_RESOURCE_DATES_TOOLTIP">
+			<Text>+3[icon:YIELD_FOOD] Food, +3[icon:YIELD_HAPPINESS] Happiness</Text>
+		</Row>
+	</EnglishText>
+</Database>

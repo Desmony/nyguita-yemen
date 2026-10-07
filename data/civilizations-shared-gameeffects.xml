@@ -74,7 +74,7 @@
 		<Argument name="Imported">true</Argument>
 		<Argument name="Tooltip">LOC_TRAIT_NYGUITA_YEMEN_ABILITY_NAME</Argument>
 	</Modifier>
-	<Modifier id="MOD_NYGUITA_YEMEN_REPLACE_UI_MO" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
+	<!--Modifier id="MOD_NYGUITA_YEMEN_REPLACE_UI_MO" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
 		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
 		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
 	</Modifier>
@@ -101,5 +101,5 @@
 		</OwnerRequirements>
 		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
 		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
-	</Modifier>
+	</Modifier-->
 </GameEffects>
