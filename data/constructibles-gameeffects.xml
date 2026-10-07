@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<Modifier id="MOD_NYGUITA_DATE_PALM_PLANTATION" collection="COLLECTION_SINGLE_PLOT_YIELDS" effect="EFFECT_PLOT_PLACE_RESOURCE" permanent="true">
-		<!--OwnerRequirements>
-			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X" inverse="true">
-            	<Argument name="Percent">99</Argument>
-            	<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
-        	</Requirement>
-		</OwnerRequirements-->
 		<Argument name="ResourceType">RESOURCE_DATES</Argument>
 	</Modifier>
 	<Modifier id="MOD_NYGUITA_DATE_PALM_PLANTATION_REPLACE_UI" collection="COLLECTION_OWNER_PLAYER" effect="EFFECT_PLAYER_REPLACE_CONSTRUCTIBLE" permanent="true">
-		<!--OwnerRequirements>
-			<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X" inverse="true">
-            	<Argument name="Percent">99</Argument>
-            	<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
-        	</Requirement>
-		</OwnerRequirements-->
 		<Argument name="Create">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
 		<Argument name="Destroy">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION</Argument>
 	</Modifier>

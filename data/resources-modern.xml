@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Resources>
-		<Update><Where ResourceType="RESOURCE_DATES"/><Set UnlocksCiv="true"/></Update>
-		<Update><Where ResourceType="RESOURCE_INCENSE"/><Set UnlocksCiv="true"/></Update>
-	</Resources>
-	<Resource_ValidAges>
-		<Row ResourceType="RESOURCE_DATES" AgeType="AGE_MODERN"/>
-	</Resource_ValidAges>
+	<GameModifiers>
+		<Row ModifierId="MOD_DATES_CITY_FLAT_FOOD"/>
+		<Row ModifierId="MOD_DATES_CITY_FLAT_HAPPINESS"/>
+	</GameModifiers>
+	<ModifierMetadatas>
+		<Row ModifierId="MOD_DATES_CITY_FLAT_FOOD" FieldName="ResourceType" String="RESOURCE_DATES"/>
+		<Row ModifierId="MOD_DATES_CITY_FLAT_HAPPINESS" FieldName="ResourceType" String="RESOURCE_DATES"/>
+	</ModifierMetadatas>
+	<TypeTags>
+		<Row Type="RESOURCE_DATES" Tag="FOOD"/>
+		<Row Type="RESOURCE_DATES" Tag="HAPPINESS"/>
+	</TypeTags>
 </Database>

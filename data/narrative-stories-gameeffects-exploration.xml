@@ -26,14 +26,107 @@
         <Argument name="AttributeType">ATTRIBUTE_SCIENTIFIC</Argument>
         <Argument name="Amount">1</Argument>
     </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_02_B_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">4</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_02_C_REWARD_MODIFIER" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_CITY_ADJUST_YIELD" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES">
+                <Argument name="ResourceType">RESOURCE_HORSES</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+        <Argument name="Amount">2</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_02_D_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+        <Argument name="ConstructibleType">BUILDING_OBSERVATORY</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_03_B_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_GREAT_WORK" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_03_B_REWARD2_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_04_B_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION" run-once="false" permanent="true">
+        <Argument name="Percent">20</Argument>
+        <Argument name="ConstructibleType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_04_C_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+        <Argument name="ConstructibleType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_05_B_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION" run-once="false" permanent="true">
+        <SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">2</Argument>
+		<Argument name="Urban">true</Argument>
+		<Argument name="Rural">false</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_05_C_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">2</Argument>
+		<Argument name="Urban">true</Argument>
+		<Argument name="Rural">false</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_06_B_REWARD_MODIFIER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY" run-once="false" permanent="true">
+        <SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NYGUITA_ZARUG</Argument>
+			</Requirement>
+		</SubjectRequirements>
+        <Argument name="AbilityType">ABILITY_NARRATIVE_STRENGTH</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_06_C_REWARD_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION" run-once="false" permanent="true">
+        <Argument name="Percent">15</Argument>
+        <Argument name="UnitClass">UNIT_CLASS_NYGUITA_ZARUG</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_07_C_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="MultiplierType">REWARD_TYPE_MINOR_EARLY</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_07_D_REWARD_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="MultiplierType">REWARD_TYPE_MAJOR_EARLY</Argument>
+    </Modifier>
+    <Modifier id="NYGUITA_YEMEN_STORY_07_D_REWARD2_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+		<Argument name="MajorsOnly">true</Argument>
+    </Modifier>
 
     <RequirementSet id="REQSET_NYGUITA_YEMEN_RIZAL_A_NARRATIVE_REQUISITE">
         <Requirement xref="REQ_STORY_LEADER_JOSE_RIZAL"/>
     </RequirementSet>
-    <RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_REQUISITEE">
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_REQUISITE">
         <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
     </RequirementSet>
-    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_01_A_REQUISITEE">
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_01_A_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_02_A_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_03_A_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_04_A_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_05_A_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_06_A_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_07_A_REQUISITE">
         <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
     </RequirementSet>
 
@@ -44,17 +137,6 @@
             <Argument name="GOSSIP_PLAYERS_MEET01">Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_NYGUITA_YEMEN</Argument>
         </Requirement>
     </RequirementSet>
-    <!--RequirementSet id="REQSET_NYGUITA_YEMEN_DATES_UI_A_NARRATIVE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
-        <Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
-            <Argument name="Percent">99</Argument>
-            <Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
-        </Requirement>
-        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
-            <Argument name="Amount">1</Argument>
-            <Argument name="BuildingType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
-        </Requirement>
-    </RequirementSet-->
     <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_01_A_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
@@ -62,5 +144,70 @@
             <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_EX_NYGUITA_YEMEN_ZAYDISM</Argument>
         </Requirement>
     </RequirementSet>
-
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_02_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_X_MASTERIES">
+            <Argument name="Amount">5</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_ACTIVE_TRADITION">
+            <Argument name="TraditionType">TRADITION_NYGUITA_SCHOLAR_SULTANS</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_03_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_COLLECTION_COUNT_ATLEAST">
+            <Argument name="Count">2</Argument>
+            <Argument name="CollectionType">COLLECTION_PLAYER_CITIES</Argument>
+            <Argument name="RequirementSetId">SUBREQSET_NYGUITA_YEMEN_STORY_03_A_NARRATIVE</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="SUBREQSET_NYGUITA_YEMEN_STORY_03_A_NARRATIVE">
+        <Requirement type="REQUIREMENT_CITY_IS_HOLY_CITY"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_04_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
+            <Argument name="Amount">5</Argument>
+            <Argument name="BuildingType">IMPROVEMENT_NYGUITA_DATE_PALM_PLANTATION_RESOURCE</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_05_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="MinDepth">1</Argument>
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_EX_MAIN_BUREAUCRACY</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_COLLECTION_COUNT_ATLEAST">
+            <Argument name="Count">3</Argument>
+            <Argument name="CollectionType">COLLECTION_PLAYER_CITIES</Argument>
+            <Argument name="RequirementSetId">SUBREQSET_NYGUITA_YEMEN_STORY_05_A_NARRATIVE</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="SUBREQSET_NYGUITA_YEMEN_STORY_05_A_NARRATIVE">
+        <Requirement type="REQUIREMENT_CITY_POPULATION">
+				<Argument name="MinUrbanPopulation">10</Argument>
+			</Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_06_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_X_RESOURCES">
+            <Argument name="Amount">3</Argument>
+            <Argument name="ResourceType">RESOURCE_HARDWOOD</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_07_A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_TRADE_ROUTE_STARTED01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,OtherPlayer,Self,Hash,Civilization,CIVILIZATION_MING</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_NYGUITA_YEMEN_STORY_07_B_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_NYGUITA_YEMEN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_TRADE_ROUTE_STARTED01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_MING</Argument>
+            <Argument name="AfterInit">True</Argument>
+        </Requirement>
+    </RequirementSet>
 </GameEffects>

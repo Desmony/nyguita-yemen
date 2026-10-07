@@ -13,6 +13,25 @@
         <Row Type="NYGUITA_YEMEN_STORY_01_A" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="NYGUITA_YEMEN_STORY_01_B" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="NYGUITA_YEMEN_STORY_01_C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_02_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_02_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_02_C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_02_D" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_03_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_03_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_04_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_04_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_04_C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_05_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_05_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_05_C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_06_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_06_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_06_C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_07_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_07_B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_07_C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NYGUITA_YEMEN_STORY_07_D" Kind="KIND_NARRATIVE_STORY"/>
     </Types>
     <NarrativeStories>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_A"
@@ -46,38 +65,136 @@
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_01_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_01_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_01_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_01_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_01_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_01_A_NARRATIVE"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_B" Name="LOC_NYGUITA_YEMEN_STORY_01_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_01_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_01_B_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_C" Name="LOC_NYGUITA_YEMEN_STORY_01_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_01_C_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_01_C_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_02_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_02_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_02_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_02_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_02_A_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_B" Name="LOC_NYGUITA_YEMEN_STORY_02_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_02_B_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_C" Name="LOC_NYGUITA_YEMEN_STORY_02_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_C_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_02_C_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_D" Name="LOC_NYGUITA_YEMEN_STORY_02_D_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_D_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_02_D_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_03_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_03_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_03_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_03_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_03_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_03_A_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" Name="LOC_NYGUITA_YEMEN_STORY_03_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_03_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_03_B_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_04_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_04_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_04_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_04_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_04_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_04_A_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_B" Name="LOC_NYGUITA_YEMEN_STORY_04_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_04_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_04_B_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_C" Name="LOC_NYGUITA_YEMEN_STORY_04_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_04_C_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_04_C_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_05_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_05_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_05_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_05_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_05_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_05_A_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_B" Name="LOC_NYGUITA_YEMEN_STORY_05_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_05_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_05_B_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_C" Name="LOC_NYGUITA_YEMEN_STORY_05_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_05_C_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_05_C_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_06_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_06_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_06_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_06_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_06_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_06_A_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_B" Name="LOC_NYGUITA_YEMEN_STORY_06_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_06_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_06_B_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_C" Name="LOC_NYGUITA_YEMEN_STORY_06_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_06_C_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_06_C_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_A" StoryTitle="LOC_NYGUITA_YEMEN_STORY_07_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_07_A_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_A_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_07_A_COMPLETION" Age="AGE_EXPLORATION" Activation="REQUISITE" UIActivation="STANDARD" ActivationRequirementSetId="REQSET_NYGUITA_YEMEN_STORY_07_A_REQUISITE" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_07_A_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_B" StoryTitle="LOC_NYGUITA_YEMEN_STORY_07_A_STORYTITLE" Name="LOC_NYGUITA_YEMEN_STORY_07_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_B_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_07_B_COMPLETION" Imperative="LOC_NYGUITA_YEMEN_STORY_07_B_IMPERATIVE" Age="AGE_EXPLORATION" IsQuest="true" Hidden="false" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="REQSET_NYGUITA_YEMEN_STORY_07_B_NARRATIVE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_C" Name="LOC_NYGUITA_YEMEN_STORY_07_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_C_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_07_C_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" Name="LOC_NYGUITA_YEMEN_STORY_07_D_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_D_DESCRIPTION" Completion="LOC_NYGUITA_YEMEN_STORY_07_D_COMPLETION" Age="AGE_EXPLORATION" Hidden="true" Activation="LINKED" UIActivation="STANDARD" RequirementSetId="Met"/>
     </NarrativeStories>
     <NarrativeRewards>
         <Row NarrativeRewardType="NYGUITA_YEMEN_RIZAL_B_REWARD" ModifierID="NYGUITA_YEMEN_RIZAL_B_REWARD_MODIFIER"/>
         <Row NarrativeRewardType="NYGUITA_YEMEN_RIZAL_C_REWARD" ModifierID="NYGUITA_YEMEN_RIZAL_C_REWARD_MODIFIER"/>
         <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_01_B_REWARD" ModifierID="NYGUITA_YEMEN_STORY_01_B_REWARD_MODIFIER"/>
         <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_01_C_REWARD" ModifierID="NYGUITA_YEMEN_STORY_01_C_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_02_B_REWARD" ModifierID="NYGUITA_YEMEN_STORY_02_B_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_02_C_REWARD" ModifierID="NYGUITA_YEMEN_STORY_02_C_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_02_D_REWARD" ModifierID="NYGUITA_YEMEN_STORY_02_D_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_03_B_REWARD" ModifierID="NYGUITA_YEMEN_STORY_03_B_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_03_B_REWARD2" ModifierID="NYGUITA_YEMEN_STORY_03_B_REWARD2_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_04_B_REWARD" ModifierID="NYGUITA_YEMEN_STORY_04_B_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_04_C_REWARD" ModifierID="NYGUITA_YEMEN_STORY_04_C_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_05_B_REWARD" ModifierID="NYGUITA_YEMEN_STORY_05_B_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_05_C_REWARD" ModifierID="NYGUITA_YEMEN_STORY_05_C_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_06_B_REWARD" ModifierID="NYGUITA_YEMEN_STORY_06_B_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_06_C_REWARD" ModifierID="NYGUITA_YEMEN_STORY_06_C_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_07_C_REWARD" ModifierID="NYGUITA_YEMEN_STORY_07_C_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_07_D_REWARD" ModifierID="NYGUITA_YEMEN_STORY_07_D_REWARD_MODIFIER"/>
+        <Row NarrativeRewardType="NYGUITA_YEMEN_STORY_07_D_REWARD2" ModifierID="NYGUITA_YEMEN_STORY_07_D_REWARD2_MODIFIER"/>
     </NarrativeRewards>
     <NarrativeStory_Rewards>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_B" NarrativeRewardType="NYGUITA_YEMEN_RIZAL_B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_C" NarrativeRewardType="NYGUITA_YEMEN_RIZAL_C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_01_B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_C" NarrativeRewardType="NYGUITA_YEMEN_STORY_01_C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_02_B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_C" NarrativeRewardType="NYGUITA_YEMEN_STORY_02_C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_D" NarrativeRewardType="NYGUITA_YEMEN_STORY_02_D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_03_B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_03_B_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_04_B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_C" NarrativeRewardType="NYGUITA_YEMEN_STORY_04_C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_05_B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_C" NarrativeRewardType="NYGUITA_YEMEN_STORY_05_C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_B" NarrativeRewardType="NYGUITA_YEMEN_STORY_06_B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_C" NarrativeRewardType="NYGUITA_YEMEN_STORY_06_C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_C" NarrativeRewardType="NYGUITA_YEMEN_STORY_07_C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" NarrativeRewardType="NYGUITA_YEMEN_STORY_07_D_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" NarrativeRewardType="NYGUITA_YEMEN_STORY_07_D_REWARD2" Activation="COMPLETE"/>
     </NarrativeStory_Rewards>
     <NarrativeRewardIcons>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_B" RewardIconType="YIELD_DIPLOMACY"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_C" RewardIconType="YIELD_CULTURE"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_B" RewardIconType="ATTRIBUTE_ECONOMIC"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_C" RewardIconType="ATTRIBUTE_SCIENTIFIC"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_B" RewardIconType="YIELD_FOOD"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_C" RewardIconType="YIELD_PRODUCTION"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_D" RewardIconType="YIELD_SCIENCE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" RewardIconType="GREATWORK"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" RewardIconType="ATTRIBUTE_MILITARISTIC"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_B" RewardIconType="YIELD_PRODUCTION"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_C" RewardIconType="YIELD_GOLD"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_B" RewardIconType="YIELD_HAPPINESS"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_C" RewardIconType="YIELD_GOLD"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_B" RewardIconType="NAR_REW_COMBAT"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_B" RewardIconType="UNIT_NYGUITA_ZARUG"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_C" RewardIconType="YIELD_PRODUCTION"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_C" RewardIconType="UNIT_NYGUITA_ZARUG"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_B" RewardIconType="YIELD_GOLD"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_B" RewardIconType="QUEST"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_B" RewardIconType="TRADE_ROUTE"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_C" RewardIconType="YIELD_DIPLOMACY"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" RewardIconType="YIELD_GOLD"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" RewardIconType="TRADE_ROUTE"/>
     </NarrativeRewardIcons>
     <NarrativeStory_TextReplacements>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_RIZAL_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
         <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_01_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_02_D" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="2"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_04_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_05_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="CAPITAL" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_06_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="NYGUITA_YEMEN_STORY_07_C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
     </NarrativeStory_TextReplacements>
     <NarrativeStory_Links>
         <Row FromNarrativeStoryType="NYGUITA_YEMEN_RIZAL_A" ToNarrativeStoryType="NYGUITA_YEMEN_RIZAL_B" Priority="0" Name="LOC_NYGUITA_YEMEN_RIZAL_B_NAME" Description="LOC_NYGUITA_YEMEN_RIZAL_B_DESCRIPTION"/>
         <Row FromNarrativeStoryType="NYGUITA_YEMEN_RIZAL_A" ToNarrativeStoryType="NYGUITA_YEMEN_RIZAL_C" Priority="1" Name="LOC_NYGUITA_YEMEN_RIZAL_C_NAME" Description="LOC_NYGUITA_YEMEN_RIZAL_C_DESCRIPTION"/>
         <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_01_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_01_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_01_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_01_B_DESCRIPTION"/>
         <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_01_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_01_C" Priority="1" Name="LOC_NYGUITA_YEMEN_STORY_01_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_01_C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_02_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_02_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_02_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_02_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_02_C" Priority="1" Name="LOC_NYGUITA_YEMEN_STORY_02_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_02_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_02_D" Priority="2" Name="LOC_NYGUITA_YEMEN_STORY_02_D_NAME" Description="LOC_NYGUITA_YEMEN_STORY_02_D_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_03_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_03_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_03_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_03_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_04_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_04_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_04_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_04_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_04_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_04_C" Priority="1" Name="LOC_NYGUITA_YEMEN_STORY_04_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_04_C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_05_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_05_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_05_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_05_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_05_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_05_C" Priority="1" Name="LOC_NYGUITA_YEMEN_STORY_05_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_05_C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_06_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_06_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_06_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_06_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_06_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_06_C" Priority="1" Name="LOC_NYGUITA_YEMEN_STORY_06_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_06_C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_07_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_07_B" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_07_B_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_07_A" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_07_C" Priority="1" Name="LOC_NYGUITA_YEMEN_STORY_07_C_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="NYGUITA_YEMEN_STORY_07_B" ToNarrativeStoryType="NYGUITA_YEMEN_STORY_07_D" Priority="0" Name="LOC_NYGUITA_YEMEN_STORY_07_D_NAME" Description="LOC_NYGUITA_YEMEN_STORY_07_D_DESCRIPTION"/>
     </NarrativeStory_Links>
     <!-- Trigger design notes (not read by the game): -->
     <!-- NYGUITA_YEMEN_RIZAL_A: Rizal (Jose Rizal) first discovers this civilization -->
     <!-- NYGUITA_YEMEN_STORY_01_A: Finishing the Unique civic tree -->
+    <!-- NYGUITA_YEMEN_STORY_02_A: Scholar Sultans -->
+    <!-- NYGUITA_YEMEN_STORY_03_A: The Conquest of Mecca -->
+    <!-- NYGUITA_YEMEN_STORY_04_A: Promotion of the Date Palm -->
+    <!-- NYGUITA_YEMEN_STORY_05_A: The Growing Bureaucracy -->
+    <!-- NYGUITA_YEMEN_STORY_06_A: Explotation of Hardwood -->
+    <!-- NYGUITA_YEMEN_STORY_07_A: Trading with Ming -->
 </Database>

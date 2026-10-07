@@ -20,23 +20,11 @@
         <Row Tag="LOC_NYGUITA_YEMEN_RIZAL_C_DESCRIPTION">
             <Text>{1_reward}.</Text>
         </Row>
-        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_A_STORYTITLE">
-            <Text>The end of the world has a Date, or not</Text>
-        </Row>
-        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_A_COMPLETION">
-            <Text>Because of reasons beyond our means (some scholars are talking about a transition), our Date Palm Plantations refuse to bear fruit this year. But hope is not lost, as we are certain that the Dates will come back.</Text>
-        </Row>
-        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_B_NAME">
-            <Text>We will survive this.</Text>
-        </Row>
-        <Row Tag="LOC_NYGUITA_YEMEN_DATES_UI_B_DESCRIPTION">
-            <Text>The Date Palm Plantation will temporarly not give Dates this turn.</Text>
-        </Row>
         <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_A_STORYTITLE">
             <Text>The Great Book of a Dynasty</Text>
         </Row>
         <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_A_COMPLETION">
-            <Text>A scholar was asked by the Sultan to write a great book to record his legacy and how well they ruled the land. The scholar doesn't have to lie, they can see how they turned the desert into a magnificient trading hub. But what to write? What to focus on?</Text>
+            <Text>A chronicler was asked by the Sultan to write a great book to record his legacy and how well they ruled the land. The chronicler doesn't have to lie, they can see how they turned the desert into a magnificient trading hub. But what to write? What to focus on?</Text>
         </Row>
         <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_B_NAME">
             <Text>It will be a detailled record of all production, inventory and trade in all the kingdom.</Text>
@@ -49,6 +37,126 @@
         </Row>
         <Row Tag="LOC_NYGUITA_YEMEN_STORY_01_C_DESCRIPTION">
             <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_A_STORYTITLE">
+            <Text>Scholarly pursuits</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_A_COMPLETION">
+            <Text>The Sultan has accumulated much knowledge and wisdom over the years. He is now ready to put it down in ink. He will first write a treatise...</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_B_NAME">
+            <Text>...on agriculture.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_B_DESCRIPTION">
+            <Text>{1_reward} in all Settlements.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_C_NAME">
+            <Text>...on horse breeding.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_C_DESCRIPTION">
+            <Text>{1_reward} on Horses.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_D_NAME">
+            <Text>...on astronomy.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_02_D_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_03_A_STORYTITLE">
+            <Text>The Conquest of the Holy Sites</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_03_A_COMPLETION">
+            <Text>With the Conquest of the Holy City, our prestige is only growing. The other nations have to choice but to admire our splendor.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_03_B_NAME">
+            <Text>Yemen will be one of the Greats.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_03_B_DESCRIPTION">
+            <Text>{1_reward} and {2_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_04_A_STORYTITLE">
+            <Text>No Present like the Date</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_04_A_COMPLETION">
+            <Text>The Date Palm Plantations are flourishing in the kingdom. We produce more and more and yet, we keep selling all of them, for both our own consuption and exports. It might be the most profitable crop of the kingdom.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_04_B_NAME">
+            <Text>Build more of them.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_04_B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_04_C_NAME">
+            <Text>Think about making them more profitable first.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_04_C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_05_A_STORYTITLE">
+            <Text>Growing Bureaucracy</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_05_A_COMPLETION">
+            <Text>The empire grows larger and larger and we need to delegate our authority to govern the larger cities more efficiently. However, the royals officials disagree on how to maintain such buzzling settlements.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_05_B_NAME">
+            <Text>Listen to the wali and focus on administration.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_05_B_DESCRIPTION">
+            <Text>+0.5 [icon:YIELD_HAPPINESS] Happiness for each Urban population in all Cities.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_05_C_NAME">
+            <Text>Listen to the mushidd and focus on tax collection.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_05_C_DESCRIPTION">
+            <Text>+0.5 [icon:YIELD_GOLD] Gold for each Urban population in {1_Capital}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_06_A_STORYTITLE">
+            <Text>Wood for Ship</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_06_A_COMPLETION">
+            <Text>The Zarug was designed at a time where we lacked wood to create big ships but the recent explotations of Hardwood, this isn't a problem anymore. Some shipbuilders suggest to complety redesign the zarug to have more capacity while others, not wanting to change their line of production, are advocating for no changes at all.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_06_B_NAME">
+            <Text>Make the Zarugs larger.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_06_B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_06_C_NAME">
+            <Text>Make more of them.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_06_C_DESCRIPTION">
+            <Text>{1_reward} Zarugs.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_A_STORYTITLE">
+            <Text>The Swimming Dragons</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_A_COMPLETION">
+            <Text>Huge boats from far away have arrived in the port. They claimed to be envoys from a place called the Ming Empire. They bring with them perfumes, pottery and scented wood. That kind of wealth and riches can't be faked. They asked of us to send another batches of treasures, in order to formalize diplomatic relations.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_B_NAME">
+            <Text>More opportunities to trade cannot hurt. We will send them corals and wild animals.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_B_DESCRIPTION">
+            <Text>Story continues.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_B_IMPERATIVE">
+            <Text>Send a Trade Route to Ming.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_B_COMPLETION">
+            <Text>You recieve a letter that your gifts have arrived and the emperor is fascinated by the giraffe you sent. You are now considered as a great trading partner.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_C_NAME">
+            <Text>We will not be subjugated by them.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_D_NAME">
+            <Text>Commerce makes the gold flow.</Text>
+        </Row>
+        <Row Tag="LOC_NYGUITA_YEMEN_STORY_07_D_DESCRIPTION">
+            <Text>{1_reward} and +1 [icon:TRADE_ROUTE][/B] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP] Limit with all other Leaders.</Text>
         </Row>
     </EnglishTextt>
 </Database>
