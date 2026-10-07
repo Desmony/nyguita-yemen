@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<GameEffects>
     <Modifier id="TOT_MODERN_NYGUITA_YEMEN_B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
         <Argument name="AttributeType">ATTRIBUTE_ECONOMIC</Argument>
@@ -18,4 +18,4 @@
             <Argument name="MinDepth">1</Argument>
         </Requirement>
     </RequirementSet>
-</GameData>
+</GameEffects>

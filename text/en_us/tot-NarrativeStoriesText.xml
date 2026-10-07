@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<Database>
 	<EnglishText>
 		<Row Tag="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_A_STORYTITLE">
             <Text>The Commercial Hub of the World</Text>
@@ -38,4 +38,4 @@
             <Text>{1_reward}.</Text>
         </Row>
 	</EnglishText>
-</GameData>
+</Database>

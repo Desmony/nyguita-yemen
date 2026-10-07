@@ -17,6 +17,7 @@
 		<Mod id="age-antiquity" title="LOC_MODULE_AGE_ANTIQUITY_NAME" />
 		<Mod id="ottomans" title="LOC_MODULE_OTTOMAN_NAME" />
 		<Mod id="friedrich-xerxes-alt" title="LOC_MODULE_FRIEDRICH_XERXES_ALT_NAME" />
+        <Mod id="civ_background_framework_1" title="Civilization Background Framework"/>
 	</References>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -49,6 +50,12 @@
         </Criteria>
 		<Criteria id="ccaf-enable-shell" all="true">
             <ModIsEnabled>custom-civ-art-fixes</ModIsEnabled>
+        </Criteria>
+        <Criteria id="tsl-enable">
+            <ModInUse>civ_background_framework_1</ModInUse>
+        </Criteria>
+        <Criteria id="tsl-enable-shell">
+            <ModIsEnabled>civ_background_framework_1</ModIsEnabled>
         </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -89,7 +96,6 @@
 					<Item>data/civilizations-shared.xml</Item>
 					<Item>data/civilizations-shared-gameeffects.xml</Item>
 					<Item>data/constructibles-shared.xml</Item>
-					<!--Item>data/named-places.xml</Item-->
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
@@ -242,6 +248,26 @@
                 </UpdateDatabase>
             </Actions>
 		</ActionGroup>
+        <ActionGroup id="tsl-game" scope="game" criteria="tsl-enable">
+            <Properties>
+                <LoadOrder>3000</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateDatabase>
+                    <Item>tsl/TSL_location.sql</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="tsl-shell" scope="shell" criteria="tsl-enable-shell">
+            <Properties>
+                <LoadOrder>3000</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateDatabase>
+                    <Item>tsl/TSL_location.sql</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
 	</ActionGroups>
 	<LocalizedText>
 		<File>text/en_us/ModuleText.xml</File>

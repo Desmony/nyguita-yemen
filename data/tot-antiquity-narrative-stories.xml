@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<Database>
     <Types>
         <Row Type="TOT_ANTIQUITY_NYGUITA_YEMEN_A" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="TOT_ANTIQUITY_NYGUITA_YEMEN_B" Kind="KIND_NARRATIVE_STORY"/>
@@ -34,4 +34,4 @@
         <Row FromNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_A" ToNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_B" Priority="0" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_B_DESCRIPTION"/>
         <Row FromNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_A" ToNarrativeStoryType="TOT_ANTIQUITY_NYGUITA_YEMEN_C" Priority="1" Name="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_NAME" Description="LOC_TOT_ANTIQUITY_NYGUITA_YEMEN_C_DESCRIPTION"/>
     </NarrativeStory_Links>
-</GameData>
+</Database>
